@@ -11,7 +11,7 @@
 <div class="container">
     {#if textLeft}
         <div class="text">
-            <Article headline={headline} summary={summary} author={author}/>
+            <Article headline={headline} summary={summary} author={author} headerSize={26} summarySize={20}/>
         </div>
         <img src="{img}" alt="">
     {:else}
@@ -27,7 +27,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         width: 90%;
-        margin: 250px auto;
+        margin: 240px auto;
     }
     .text {
         width: 75%;

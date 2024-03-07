@@ -56,6 +56,10 @@
     ];
 </script>
 
+<div style="width: 400px;">
+    <Article headline={"A headline"} author={"Leo Davidson"} img={"https://source.unsplash.com/random"} sideCar={true}/>
+</div>
+
 <Feature img={"https://source.unsplash.com/random"} headline={"Youth on the UNC men's lacrosse team show promise in weekend games against Princeton and Penn"} summary={"Heading into the general election, the mood in Trump world is buoyant."} author={"Leo Davidson"}/>
 
 <div class="carousel-container">

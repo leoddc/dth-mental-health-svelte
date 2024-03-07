@@ -52,6 +52,7 @@
     .carousel-container {
         display: flex;
         align-items: center;
+        margin: 20px auto;
     }
     .carousel-window {
         display: flex;
