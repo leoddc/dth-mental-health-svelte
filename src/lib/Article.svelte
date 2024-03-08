@@ -2,28 +2,47 @@
     export let img = "";
     export let headline;
     export let summary = "";
-    export let author;
+    export let author = "";
     export let sideCar = false;
     export let headerSize = 22;
     export let summarySize = 17;
+    export let invertColors = false;
+    export let isLink = true;
+    export let url = "";
 </script>
 
 <div class="article">
-    <div class="wrapper" style:display={sideCar ? "grid" : "unset"} style:align-items={sideCar ? "center" : "unset"}>
+    <div
+        class="wrapper"
+        style:display={sideCar ? "grid" : "unset"}
+        style:align-items={sideCar ? "center" : "unset"}
+    >
         {#if img}
             <img src={img} alt={headline} />
         {/if}
         <div class="text-wrapper">
             <h3 style="font-size: {headerSize}px;">{headline}</h3>
             {#if summary}
-                <p class="summary" style="font-size: {summarySize}px;">{summary}</p>
+                <p
+                    class="summary"
+                    style="font-size: {summarySize}px;"
+                    style:color={invertColors ? "#eeeeee" : "#353535"}
+                >
+                    {summary}
+                </p>
             {/if}
-            <p class="author">By {author}</p>
+            {#if summary}
+                <p class="author">By {author}</p>
+            {/if}
         </div>
     </div>
 </div>
 
 <style>
+    a {
+        text-decoration: none;
+        color: unset;
+    }
     .text-wrapper {
         /* margin: 0 10px; */
     }
@@ -53,7 +72,6 @@
         line-height: 1.41176em;
     }
     .summary {
-        color: #353535;
     }
     .author {
         font-family: Helvetica, sans-serif;

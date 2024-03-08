@@ -3,6 +3,7 @@
     import Article from "./lib/Article.svelte";
     import ArticleCase from "./lib/ArticleCase.svelte";
     import Feature from "./lib/Feature.svelte";
+    import ArticleSet from "./lib/ArticleSet.svelte";
 
     let colors = [
         {
@@ -54,21 +55,78 @@
             img: "https://source.unsplash.com/random/300x200"
         },
     ];
+
+    let set = [
+        {
+            header: "'It’s just crazy': Armando Bacot tearily reminisces on his five years at UNC after senior night win",
+            text:  "Heading into the general election, the mood in Trump world is buoyant.",
+            author: "Juy Goe",
+            img: "https://source.unsplash.com/random/300x200"
+        },
+        {
+            header: "'He’s a dog, he’s a killer, he works hard': RJ Davis' rise from New York Gauchos to dominance in the ACC",
+            text: "Heading into the general election, the mood in Trump world is buoyant.",
+            author: "Juy Goe",
+            img: "https://source.unsplash.com/random/300x200"
+        },
+        {
+            header: "'He’s a a dog, he’s a killer, he works hard': RJ Davis' rise from New York Gauchos to dominance in the ACC",
+            text: "Heading into the general election, the mood in Trump world is buoyant.",
+            author: "Juy Goe",
+            img: "https://source.unsplash.com/random/300x200"
+        }
+    ];
+
+    let set2 = [
+        {
+            header: "'It’s just crazy': Armando Bacot tearily reminisces on his five years at UNC after senior night win",
+            text:  "Heading into the general election, the mood in Trump world is buoyant.",
+            author: "Juy Goe",
+            img: "https://source.unsplash.com/random/300x200"
+        },
+        {
+            header: "'He’s a dog, he’s a killer, he works hard': RJ Davis' rise from New York Gauchos to dominance in the ACC",
+            text: "Heading into the general election, the mood in Trump world is buoyant.",
+            author: "Juy Goe",
+            img: "https://source.unsplash.com/random/300x200"
+        }
+    ];
 </script>
 
-<div style="width: 400px;">
-    <Article headline={"A headline"} author={"Leo Davidson"} img={"https://source.unsplash.com/random"} sideCar={true}/>
+<div style:background-color={"black"}>
+    <Feature headerSize={40} invertColors={true} img={"https://source.unsplash.com/random"} headline={"The Mental Health Edition"} size={240}/>
 </div>
 
-<Feature img={"https://source.unsplash.com/random"} headline={"Youth on the UNC men's lacrosse team show promise in weekend games against Princeton and Penn"} summary={"Heading into the general election, the mood in Trump world is buoyant."} author={"Leo Davidson"}/>
-
-<div class="carousel-container">
-    <ArticleCase header={"The Daily Tar Heel"} articleData={colors}/>
-</div>
+<main>
+    <div class="article-set">
+        <ArticleSet articleData={set} sideCar={false} header={"Lorem ipsum dolar iset"}/>
+    </div>
+    
+    <div class="article-set">
+        <ArticleSet sizePct={70} articleData={set2} sideCar={false} header={"Lorem ipsum dolar iset"}/>
+    </div>
+    
+    <div>
+        <Feature invertColors={false} img={"https://source.unsplash.com/random"} headline={"Youth on the UNC men's lacrosse team show promise in weekend games against Princeton and Penn"} summary={"Heading into the general election, the mood in Trump world is buoyant."} author={"Leo Davidson"}/>
+    </div>
+    
+    <div class="carousel-container article-set">
+        <ArticleCase header={"The Daily Tar Heel"} articleData={colors}/>
+    </div>
+</main>
 
 <style>
-    .carousel-container {
+    main {
+        margin: auto;
         width: 90%;
+    }
+    .carousel-container {
+        width: 100%;
+        margin: auto;
+    }
+
+    .article-set {
+        width: 100%;
         margin: auto;
     }
 </style>

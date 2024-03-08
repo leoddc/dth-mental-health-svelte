@@ -4,20 +4,23 @@
     export let img;
     export let headline;
     export let summary = "";
-    export let author;
+    export let author = "";
     export let textLeft = true;
+    export let invertColors = false;
+    export let headerSize = 26;
+    export let size = 240;
 </script>
 
-<div class="container">
+<div class="container" style:color={invertColors ? "#fff" : "#000"} style:padding={`${size}px 0px`} >
     {#if textLeft}
         <div class="text">
-            <Article headline={headline} summary={summary} author={author} headerSize={26} summarySize={20}/>
+            <Article invertColors={invertColors} headline={headline} summary={summary} author={author} headerSize={headerSize} summarySize={20}/>
         </div>
         <img src="{img}" alt="">
     {:else}
         <img src="{img}" alt="">
         <div class="text">
-            <Article headline={headline} summary={summary} author={author}/>
+            <Article invertColors={invertColors} headline={headline} summary={summary} author={author} headerSize={headerSize} summarySize={20}/>
         </div>
     {/if}
 </div>
@@ -27,7 +30,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         width: 90%;
-        margin: 240px auto;
+        margin: auto;
     }
     .text {
         width: 75%;
