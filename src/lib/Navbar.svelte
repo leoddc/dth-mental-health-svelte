@@ -41,7 +41,11 @@
     }
 
     li {
-        margin: 0 20px;
+        margin-left: 20px;
+    }
+
+    li:nth-child(1) {
+        margin-left: 0;
     }
 
     a {

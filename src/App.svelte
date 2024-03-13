@@ -219,10 +219,21 @@
     />
 </div>
 
-<Navbar data={[{url:"#test", text: "test"}, {url:"#test", text: "test"}]}/>
+<Navbar data={[
+    {url:"#introduction", text: "Introduction"}, 
+    {url:"#collaborative-stories", text: "Collaborative Stories"},
+    {url:"#the-daily-tar-heel", text: "The Daily Tar Heel"},
+    {url:"#the-pendulum", text: "The Pendulum"},
+    {url:"#old-gold-and-black", text: "Old Gold & Black"},
+    {url:"#nine-times", text: "Nine Times"},
+    {url:"#the-seahawk", text: "The Seahawk"},
+    {url:"#the-east-carolinian", text: "The East Carolinian"},
+    {url:"#a-and-t-register", text: "A&T Register"},
+    {url:"#the-chronicle", text: "The Chronicle"},
+]}/>
 
 <main>
-    <div class="columns">
+    <div class="columns" id="introduction">
         <h2>Title</h2>
         <p class="author">
             By Emmy Martin<br /><span class="byline">Byline</span>
@@ -282,7 +293,7 @@
             ullamcorper. Magna fermentum iaculis eu non.
         </TextColumns>
     </div>
-    <div class="article-set case">
+    <div class="article-set case" id="collaborative-stories">
         <ArticleSet
             articleData={collborativeStories}
             sideCar={false}
@@ -290,11 +301,11 @@
         />
     </div>
 
-    <div class="carousel-container article-set case">
+    <div class="carousel-container article-set case" id="the-daily-tar-heel">
         <ArticleCase header={"The Daily Tar Heel"} articleData={theDailyTarHeelStories} />
     </div>
 
-    <div class="article-set case">
+    <div class="article-set case" id="the-pendulum">
         <ArticleSet
             sizePct={70}
             articleData={thePendulumStories}
@@ -302,7 +313,7 @@
             header={"The Pendulum"}
         />
     </div>
-    <div class="article-set case">
+    <div class="article-set case" id="old-gold-and-black">
         <ArticleSet
             sizePct={70}
             articleData={oldGoldAndBlackStories}
@@ -310,7 +321,7 @@
             header={"Old Gold & Black"}
         />
     </div>
-    <div class="article-set case">
+    <div class="article-set case" id="nine-times">
         <ArticleSet
             sizePct={70}
             articleData={nineTimeStories}
@@ -318,7 +329,7 @@
             header={"Nine Times"}
         />
     </div>
-    <div class="article-set case">
+    <div class="article-set case" id="the-seahawk">
         <ArticleSet
             sizePct={70}
             articleData={theSeahawkStories}
@@ -326,7 +337,7 @@
             header={"The Seahawk"}
         />
     </div>
-    <div class="article-set case">
+    <div class="article-set case" id="the-east-carolinian">
         <ArticleSet
             sizePct={70}
             articleData={theEastCarolinianStories}
@@ -334,7 +345,7 @@
             header={"The East Carolinian"}
         />
     </div>
-    <div class="article-set case">
+    <div class="article-set case" id="a-and-t-register">
         <ArticleSet
             sizePct={70}
             articleData={aAndTRegisterStories}
@@ -342,7 +353,7 @@
             header={"A&T Register"}
         />
     </div>
-    <div class="article-set case">
+    <div class="article-set case" id="the-chronicle">
         <ArticleSet
             sizePct={70}
             articleData={theChronicleStories}

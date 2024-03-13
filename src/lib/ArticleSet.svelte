@@ -9,7 +9,7 @@
 
 <h2>{header}</h2>
 <div class="grid-container" style:width={`${sizePct}%`}>
-    {#each articleData as { header, text, author, img } (header)}
+    {#each articleData as { header, text, author, img }}
         <Article {img} headline={header} summary={text} author={author} sideCar={sideCar} />
     {/each}
 </div>
