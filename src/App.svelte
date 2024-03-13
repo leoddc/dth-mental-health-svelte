@@ -5,6 +5,7 @@
     import Feature from "./lib/Feature.svelte";
     import ArticleSet from "./lib/ArticleSet.svelte";
     import TextColumns from "./lib/TextColumns.svelte";
+    import Navbar from "./lib/Navbar.svelte";
 
     const collborativeStories = [
         {
@@ -218,6 +219,8 @@
     />
 </div>
 
+<Navbar data={[{url:"#test", text: "test"}, {url:"#test", text: "test"}]}/>
+
 <main>
     <div class="columns">
         <h2>Title</h2>
@@ -279,7 +282,7 @@
             ullamcorper. Magna fermentum iaculis eu non.
         </TextColumns>
     </div>
-    <div class="article-set">
+    <div class="article-set case">
         <ArticleSet
             articleData={collborativeStories}
             sideCar={false}
@@ -287,11 +290,11 @@
         />
     </div>
 
-    <div class="carousel-container article-set">
+    <div class="carousel-container article-set case">
         <ArticleCase header={"The Daily Tar Heel"} articleData={theDailyTarHeelStories} />
     </div>
 
-    <div class="article-set">
+    <div class="article-set case">
         <ArticleSet
             sizePct={70}
             articleData={thePendulumStories}
@@ -299,7 +302,7 @@
             header={"The Pendulum"}
         />
     </div>
-    <div class="article-set">
+    <div class="article-set case">
         <ArticleSet
             sizePct={70}
             articleData={oldGoldAndBlackStories}
@@ -307,7 +310,7 @@
             header={"Old Gold & Black"}
         />
     </div>
-    <div class="article-set">
+    <div class="article-set case">
         <ArticleSet
             sizePct={70}
             articleData={nineTimeStories}
@@ -315,7 +318,7 @@
             header={"Nine Times"}
         />
     </div>
-    <div class="article-set">
+    <div class="article-set case">
         <ArticleSet
             sizePct={70}
             articleData={theSeahawkStories}
@@ -323,7 +326,7 @@
             header={"The Seahawk"}
         />
     </div>
-    <div class="article-set">
+    <div class="article-set case">
         <ArticleSet
             sizePct={70}
             articleData={theEastCarolinianStories}
@@ -331,7 +334,7 @@
             header={"The East Carolinian"}
         />
     </div>
-    <div class="article-set">
+    <div class="article-set case">
         <ArticleSet
             sizePct={70}
             articleData={aAndTRegisterStories}
@@ -339,7 +342,7 @@
             header={"A&T Register"}
         />
     </div>
-    <div class="article-set">
+    <div class="article-set case">
         <ArticleSet
             sizePct={70}
             articleData={theChronicleStories}
@@ -348,7 +351,7 @@
         />
     </div>
 
-    <div>
+    <div class="case">
         <Feature
             invertColors={false}
             img={"https://source.unsplash.com/random"}
@@ -363,6 +366,10 @@
     main {
         margin: auto;
         width: 90%;
+    }
+
+    .case {
+        margin: 80px auto;
     }
 
     .byline {
@@ -384,6 +391,5 @@
 
     .article-set {
         width: 100%;
-        margin: auto;
     }
 </style>
