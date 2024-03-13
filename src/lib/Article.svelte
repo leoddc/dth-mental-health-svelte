@@ -73,9 +73,4 @@
     }
     .summary {
     }
-    .author {
-        font-family: Helvetica, sans-serif;
-        font-weight: 600;
-        font-size: 14px;
-    }
 </style>
