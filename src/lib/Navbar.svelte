@@ -58,8 +58,8 @@
     nav {
         width: 100%;
         padding: 20px 0;
-        border-bottom: #000 solid 1px;
-        background-color: #fff;
+        border-bottom: var(--black) solid 1px;
+        background-color: var(--white);
         z-index: 999;
     }
 </style>

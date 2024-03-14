@@ -25,7 +25,7 @@
             text: "Heading int the general election, the mood in Trump world is buoyant.",
             author: "Juy Goe",
             img: "https://source.unsplash.com/random/300x200",
-        }
+        },
     ];
 
     const theDailyTarHeelStories = [
@@ -46,7 +46,7 @@
             text: "Heading into the general election, the mood in Trump world is buoyant.",
             author: "Juy Goe",
             img: "https://source.unsplash.com/random/300x200",
-        }
+        },
     ];
 
     const thePendulumStories = [
@@ -67,7 +67,7 @@
             text: "Heading into the geneal election, the mood in Trump world is buoyant.",
             author: "Juy Goe",
             img: "https://source.unsplash.com/random/300x200",
-        }
+        },
     ];
 
     const oldGoldAndBlackStories = [
@@ -88,7 +88,7 @@
             text: "Heading into the general election, the mood in Trump world is buoyant.",
             author: "Juy Goe",
             img: "https://source.unsplash.com/random/300x200",
-        }
+        },
     ];
 
     const nineTimeStories = [
@@ -109,7 +109,7 @@
             text: "Heading into the general election, the mood in Trmp world is buoyant.",
             author: "Juy Goe",
             img: "https://source.unsplash.com/random/300x200",
-        }
+        },
     ];
 
     const theSeahawkStories = [
@@ -130,7 +130,7 @@
             text: "Heading nto the general election, the mood in Trump world is buoyant.",
             author: "Juy Goe",
             img: "https://source.unsplash.com/random/300x200",
-        }
+        },
     ];
 
     const theEastCarolinianStories = [
@@ -151,7 +151,7 @@
             text: "Heading into the genera election, the mood in Trump world is buoyant.",
             author: "Juy Goe",
             img: "https://source.unsplash.com/random/300x200",
-        }
+        },
     ];
 
     const aAndTRegisterStories = [
@@ -172,7 +172,7 @@
             text: "Heading into the geeral election, the mood in Trump world is buoyant.",
             author: "Juy Goe",
             img: "https://source.unsplash.com/random/300x200",
-        }
+        },
     ];
 
     const theChronicleStories = [
@@ -193,7 +193,7 @@
             text: "Heading into the general election, the mood in Trump world is buoyant.",
             author: "Juy Goe",
             img: "https://source.unsplash.com/random/300x200",
-        }
+        },
     ];
 </script>
 
@@ -215,99 +215,93 @@
         invertColors={true}
         img={"https://source.unsplash.com/random"}
         headline={"The Mental Health Edition"}
-        size={240}
+        size={100}
     />
 </div>
 
-<Navbar data={[
-    {url:"#introduction", text: "Introduction"}, 
-    {url:"#collaborative-stories", text: "Collaborative Stories"},
-    {url:"#the-daily-tar-heel", text: "The Daily Tar Heel"},
-    {url:"#the-pendulum", text: "The Pendulum"},
-    {url:"#old-gold-and-black", text: "Old Gold & Black"},
-    {url:"#nine-times", text: "Nine Times"},
-    {url:"#the-seahawk", text: "The Seahawk"},
-    {url:"#the-east-carolinian", text: "The East Carolinian"},
-    {url:"#a-and-t-register", text: "A&T Register"},
-    {url:"#the-chronicle", text: "The Chronicle"},
-]}/>
+<Navbar
+    data={[
+        { url: "#introduction", text: "Introduction" },
+        { url: "#collaborative-stories", text: "Collaborative Stories" },
+        { url: "#the-daily-tar-heel", text: "The Daily Tar Heel" },
+        { url: "#the-pendulum", text: "The Pendulum" },
+        { url: "#old-gold-and-black", text: "Old Gold & Black" },
+        { url: "#nine-times", text: "Nine Times" },
+        { url: "#the-seahawk", text: "The Seahawk" },
+        { url: "#the-east-carolinian", text: "The East Carolinian" },
+        { url: "#a-and-t-register", text: "A&T Register" },
+        { url: "#the-chronicle", text: "The Chronicle" },
+    ]}
+/>
 
 <main>
-    <div class="columns" id="introduction">
-        <h2>Title</h2>
+    <div class="columns anchor-wrapper">
+        <span class="anchor" id="introduction"></span>
+        <h2>Behind the Mental Health Collaborative</h2>
         <p class="author">
-            By Emmy Martin<br /><span class="byline">Byline</span>
+            By Emmy Martin<br /><span class="byline">Editor in Chief of The Daily Tar Heel</span>
         </p>
         <TextColumns numberOfCols={2}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Malesuada proin libero nunc consequat interdum varius. Gravida
-            rutrum quisque non tellus orci ac. Blandit massa enim nec dui nunc
-            mattis enim. Lacinia quis vel eros donec ac odio. Scelerisque
-            eleifend donec pretium vulputate sapien. Sagittis eu volutpat odio
-            facilisis mauris sit amet. Tellus elementum sagittis vitae et leo
-            duis. Ornare quam viverra orci sagittis. Purus viverra accumsan in
-            nisl nisi scelerisque. Quis risus sed vulputate odio ut enim blandit
-            volutpat. Sit amet justo donec enim diam vulputate. Ipsum
-            suspendisse ultrices gravida dictum fusce ut. Massa id neque aliquam
-            vestibulum morbi blandit. Rhoncus dolor purus non enim praesent
-            elementum facilisis leo vel. Condimentum mattis pellentesque id nibh
-            tortor id aliquet lectus. Pellentesque elit eget gravida cum. In
-            cursus turpis massa tincidunt dui ut ornare. In mollis nunc sed id
-            semper. Eu tincidunt tortor aliquam nulla facilisi cras fermentum.
-            Magnis dis parturient montes nascetur ridiculus mus mauris vitae
-            ultricies. At ultrices mi tempus imperdiet nulla malesuada
-            pellentesque elit eget. Elementum pulvinar etiam non quam lacus
-            suspendisse faucibus. Nam aliquam sem et tortor consequat id. Tempus
-            imperdiet nulla malesuada pellentesque elit eget gravida cum sociis.
-            Nibh ipsum consequat nisl vel pretium. Potenti nullam ac tortor
-            vitae purus faucibus. Bibendum est ultricies integer quis auctor.
-            Magna eget est lorem ipsum dolor sit amet consectetur adipiscing.
-            Laoreet non curabitur gravida arcu ac tortor dignissim convallis.
-            Neque viverra justo nec ultrices dui sapien eget mi proin. Mi
-            bibendum neque egestas congue. Neque viverra justo nec ultrices dui
-            sapien eget mi. Sit amet tellus cras adipiscing. Ut tortor pretium
-            viverra suspendisse potenti nullam ac tortor. Eget dolor morbi non
-            arcu. Sed velit dignissim sodales ut eu sem integer vitae. Sagittis
-            orci a scelerisque purus semper eget. Duis ultricies lacus sed
-            turpis tincidunt id aliquet. Sed enim ut sem viverra aliquet. Sapien
-            pellentesque habitant morbi tristique. Ac turpis egestas integer
-            eget aliquet nibh. Et sollicitudin ac orci phasellus egestas tellus
-            rutrum. Blandit turpis cursus in hac habitasse platea dictumst
-            quisque. Nisl pretium fusce id velit ut tortor pretium. Ac ut
-            consequat semper viverra nam libero justo laoreet. Magna eget est
-            lorem ipsum dolor. Nunc eget lorem dolor sed. Eget magna fermentum
-            iaculis eu. Quis lectus nulla at volutpat diam. Accumsan tortor
-            posuere ac ut consequat. Adipiscing elit pellentesque habitant morbi
-            tristique senectus et netus. Ornare arcu dui vivamus arcu felis
-            bibendum ut. Faucibus a pellentesque sit amet porttitor eget. Enim
-            sit amet venenatis urna cursus. In eu mi bibendum neque egestas
-            congue quisque egestas diam. Et netus et malesuada fames ac turpis
-            egestas. Felis eget velit aliquet sagittis id. Neque convallis a
-            cras semper auctor neque vitae tempus. Cursus vitae congue mauris
-            rhoncus. Ac tortor vitae purus faucibus ornare suspendisse. Diam
-            vulputate ut pharetra sit amet aliquam. Ut eu sem integer vitae.
-            Vitae justo eget magna fermentum iaculis eu non. Blandit aliquam
-            etiam erat velit scelerisque in dictum non consectetur. Amet cursus
-            sit amet dictum sit amet. Ante metus dictum at tempor commodo
-            ullamcorper. Magna fermentum iaculis eu non.
+            Every time I walk through the Pit at UNC, I remember the sticky
+            notes and flowers left on those four green chairs three years ago. I
+            remember the candles that sat at their feet, the messages written in
+            chalk on the bricks. “You’re fire will never truly die,” the largest
+            chalk message said. I remember the four students who died by suicide
+            that semester. The mental health crisis we face has not subsided.
+            Last year, N.C. State lost seven students to suicide. From 2016 to
+            2020, there were 878 deaths by suicide in North Carolina of people
+            ages 15-24. A national survey conducted by the American College
+            Health Association found that 52 percent of undergraduate students
+            regularly experienced moderate psychological distress. While this
+            problem isn’t new, it feels more important that ever. That’s why The
+            Daily Tar Heel partnered with eight other college newspapers to
+            report on mental health challenges shared by those in each of their
+            communities. What you hold in your hands is the result of months of
+            rigorous reporting, research, conversations, writing, editing and
+            designing. This initiative began in 2023, when The Daily Tar Heel
+            was awarded a grant from the Solutions Journalism Network as part of
+            its Student Media Challenge initiative. That grant helped fund the
+            collaborative work of this project. Many of the stories you will
+            read in this newspaper do more than just present a problem — they
+            also explore solutions to this crisis. The Daily Tar Heel is honored
+            to have had the privilege of working with The A&T Register, The Duke
+            Chronicle, The East Carolinian, The Niner Times, The Old Gold &
+            Black, The Pendulum, The Seahawk and The Technician on this project.
+            With more than 40 reported stories and seven opinion pieces, we
+            touch many issues related to mental health — from wow Wake Forest
+            University trains its faculty to be on the frontline of mental
+            health care to how international students create community at East
+            Carolina Univeristy. While there’s more that still must be, this is
+            a step toward that future. As we navigate the complexities of mental
+            health, we must not lose sight of the individual people behind the
+            statistics — the students, faculty, families and communities
+            affected. Their stories, their struggles and their resilience should
+            serve as a guiding light. We hope that this mental health
+            collaborative project serves as a call to action to create a future
+            where no one suffers in silence.
         </TextColumns>
     </div>
 </main>
-    <div class="article-set case" id="collaborative-stories">
-        <h2 class="edge-header" style:color={"white"}>Collaborative Stories</h2>
-        <ArticleSet
-            articleData={collborativeStories}
-            sideCar={false}
-            invertColors={true}
+<div class="article-set case black-back anchor-wrapper">
+    <span class="anchor" id="collaborative-stories"></span>
+    <h2 class="edge-header" style:color={"white"}>Collaborative Stories</h2>
+    <ArticleSet
+        articleData={collborativeStories}
+        sideCar={false}
+        invertColors={true}
+    />
+</div>
+<main>
+    <div class="carousel-container article-set case anchor-wrapper">
+        <span class="anchor" id="the-daily-tar-heel"></span>
+        <ArticleCase
+            header={"The Daily Tar Heel"}
+            articleData={theDailyTarHeelStories}
         />
     </div>
-<main>
-    <div class="carousel-container article-set case" id="the-daily-tar-heel">
-        <ArticleCase header={"The Daily Tar Heel"} articleData={theDailyTarHeelStories} />
-    </div>
 
-    <div class="article-set case" id="the-pendulum">
+    <div class="article-set case anchor-wrapper">
+        <span class="anchor" id="the-pendulum"></span>
         <ArticleSet
             sizePct={70}
             articleData={thePendulumStories}
@@ -315,7 +309,8 @@
             header={"The Pendulum"}
         />
     </div>
-    <div class="article-set case" id="old-gold-and-black">
+    <div class="article-set case anchor-wrapper">
+        <span class="anchor" id="old-gold-and-black"></span>
         <ArticleSet
             sizePct={70}
             articleData={oldGoldAndBlackStories}
@@ -323,7 +318,8 @@
             header={"Old Gold & Black"}
         />
     </div>
-    <div class="article-set case" id="nine-times">
+    <div class="article-set case anchor-wrapper">
+        <span class="anchor" id="nine-times"></span>
         <ArticleSet
             sizePct={70}
             articleData={nineTimeStories}
@@ -331,7 +327,8 @@
             header={"Nine Times"}
         />
     </div>
-    <div class="article-set case" id="the-seahawk">
+    <div class="article-set case anchor-wrapper">
+        <span class="anchor" id="the-seahawk"></span>
         <ArticleSet
             sizePct={70}
             articleData={theSeahawkStories}
@@ -339,7 +336,8 @@
             header={"The Seahawk"}
         />
     </div>
-    <div class="article-set case" id="the-east-carolinian">
+    <div class="article-set case anchor-wrapper">
+        <span class="anchor" id="the-east-carolinian"></span>
         <ArticleSet
             sizePct={70}
             articleData={theEastCarolinianStories}
@@ -347,7 +345,8 @@
             header={"The East Carolinian"}
         />
     </div>
-    <div class="article-set case" id="a-and-t-register">
+    <div class="article-set case anchor-wrapper">
+        <span class="anchor" id="a-and-t-register"></span>
         <ArticleSet
             sizePct={70}
             articleData={aAndTRegisterStories}
@@ -355,7 +354,8 @@
             header={"A&T Register"}
         />
     </div>
-    <div class="article-set case" id="the-chronicle">
+    <div class="article-set case anchor-wrapper">
+        <span class="anchor" id="the-chronicle"></span>
         <ArticleSet
             sizePct={70}
             articleData={theChronicleStories}
@@ -381,13 +381,22 @@
         width: 90%;
     }
 
+    .anchor-wrapper {
+        position: relative;
+    }
+
+    .anchor {
+        position: absolute;
+        top: -100px;
+    }
+
     .edge-header {
         width: 90%;
         margin: 20px auto;
     }
 
-    #collaborative-stories {
-        background-color: black;
+    .black-back {
+        background-color: var(--black);
         width: 100%;
         padding: 20px 0;
     }

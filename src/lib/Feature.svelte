@@ -8,10 +8,10 @@
     export let textLeft = true;
     export let invertColors = false;
     export let headerSize = 26;
-    export let size = 240;
+    export let size = 100;
 </script>
 
-<div class="container" style:color={invertColors ? "#fff" : "#000"} style:padding={`${size}px 0px`} >
+<div class="container" style:color={invertColors ? "var(--white)" : "var(--black)"} style:height={`${size}vh`} >
     {#if textLeft}
         <div class="text">
             <Article invertColors={invertColors} headline={headline} summary={summary} author={author} headerSize={headerSize} summarySize={20}/>

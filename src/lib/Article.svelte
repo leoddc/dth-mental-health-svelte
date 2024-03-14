@@ -21,12 +21,12 @@
             <img src={img} alt={headline} />
         {/if}
         <div class="text-wrapper">
-            <h3 style="font-size: {headerSize}px;" style:color={invertColors ? "#eeeeee" : "#353535"}>{headline}</h3>
+            <h3 style="font-size: {headerSize}px;" style:color={invertColors ? "var(--white)" : "var(--black)"}>{headline}</h3>
             {#if summary}
                 <p
                     class="summary"
                     style="font-size: {summarySize}px;"
-                    style:color={invertColors ? "#eeeeee" : "#353535"}
+                    style:color={invertColors ? "var(--white)" : "var(--black)"}
                 >
                     {summary}
                 </p>
