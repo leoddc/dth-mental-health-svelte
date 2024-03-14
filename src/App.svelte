@@ -209,7 +209,7 @@
     The Chronicle - 1
  -->
 
-<div style:background-color={"black"}>
+<div style:background-color={"var(--black)"}>
     <Feature
         headerSize={40}
         invertColors={true}
