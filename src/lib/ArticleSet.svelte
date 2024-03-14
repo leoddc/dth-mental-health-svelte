@@ -5,12 +5,15 @@
     export let header = "";
     export let sideCar = true;
     export let sizePct = 85;
+    export let invertColors = false;
 </script>
 
-<h2>{header}</h2>
+{#if header}
+    <h2>{header}</h2>
+{/if}
 <div class="grid-container" style:width={`${sizePct}%`}>
     {#each articleData as { header, text, author, img }}
-        <Article {img} headline={header} summary={text} author={author} sideCar={sideCar} />
+        <Article {img} headline={header} summary={text} author={author} sideCar={sideCar} invertColors={invertColors} />
     {/each}
 </div>
 

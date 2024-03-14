@@ -293,14 +293,16 @@
             ullamcorper. Magna fermentum iaculis eu non.
         </TextColumns>
     </div>
+</main>
     <div class="article-set case" id="collaborative-stories">
+        <h2 class="edge-header" style:color={"white"}>Collaborative Stories</h2>
         <ArticleSet
             articleData={collborativeStories}
             sideCar={false}
-            header={"Collaborative Stories"}
+            invertColors={true}
         />
     </div>
-
+<main>
     <div class="carousel-container article-set case" id="the-daily-tar-heel">
         <ArticleCase header={"The Daily Tar Heel"} articleData={theDailyTarHeelStories} />
     </div>
@@ -377,6 +379,17 @@
     main {
         margin: auto;
         width: 90%;
+    }
+
+    .edge-header {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    #collaborative-stories {
+        background-color: black;
+        width: 100%;
+        padding: 20px 0;
     }
 
     .case {
