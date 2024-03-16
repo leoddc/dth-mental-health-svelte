@@ -239,21 +239,23 @@
         <span class="anchor" id="introduction"></span>
         <h2>Behind the Mental Health Collaborative</h2>
         <p class="author">
-            By Emmy Martin<br /><span class="byline">Editor in Chief of The Daily Tar Heel</span>
+            By Emmy Martin<br /><span class="byline"
+                >Editor in Chief of The Daily Tar Heel</span
+            >
         </p>
         <TextColumns numberOfCols={2}>
             Every time I walk through the Pit at UNC, I remember the sticky
             notes and flowers left on those four green chairs three years ago. I
             remember the candles that sat at their feet, the messages written in
-            chalk on the bricks. “You’re fire will never truly die,” the largest
+            chalk on the bricks.<br>“You’re fire will never truly die,” the largest
             chalk message said. I remember the four students who died by suicide
-            that semester. The mental health crisis we face has not subsided.
+            that semester.<br>The mental health crisis we face has not subsided.
             Last year, N.C. State lost seven students to suicide. From 2016 to
             2020, there were 878 deaths by suicide in North Carolina of people
             ages 15-24. A national survey conducted by the American College
             Health Association found that 52 percent of undergraduate students
             regularly experienced moderate psychological distress. While this
-            problem isn’t new, it feels more important that ever. That’s why The
+            problem isn’t new, it feels more important that ever.<br>That’s why The
             Daily Tar Heel partnered with eight other college newspapers to
             report on mental health challenges shared by those in each of their
             communities. What you hold in your hands is the result of months of
@@ -263,15 +265,15 @@
             its Student Media Challenge initiative. That grant helped fund the
             collaborative work of this project. Many of the stories you will
             read in this newspaper do more than just present a problem — they
-            also explore solutions to this crisis. The Daily Tar Heel is honored
+            also explore solutions to this crisis.<br>The Daily Tar Heel is honored
             to have had the privilege of working with The A&T Register, The Duke
             Chronicle, The East Carolinian, The Niner Times, The Old Gold &
-            Black, The Pendulum, The Seahawk and The Technician on this project.
+            Black, The Pendulum, The Seahawk and The Technician on this project.<br>
             With more than 40 reported stories and seven opinion pieces, we
             touch many issues related to mental health — from wow Wake Forest
             University trains its faculty to be on the frontline of mental
             health care to how international students create community at East
-            Carolina Univeristy. While there’s more that still must be, this is
+            Carolina Univeristy.<br>While there’s more that still must be, this is
             a step toward that future. As we navigate the complexities of mental
             health, we must not lose sight of the individual people behind the
             statistics — the students, faculty, families and communities
@@ -295,7 +297,7 @@
     <div class="carousel-container article-set case anchor-wrapper">
         <span class="anchor" id="the-daily-tar-heel"></span>
         <ArticleCase
-            header={"The Daily Tar Heel"}
+            headerImg={"https://d39xfl750sfsi8.cloudfront.net/5ef47efc0e35a7bfa7f484f971e85f62/dist/img/dth-masthead-logo.svg"}
             articleData={theDailyTarHeelStories}
         />
     </div>
@@ -416,6 +418,12 @@
     .columns {
         width: 60%;
         margin: 60px auto;
+    }
+
+    @media only screen and (max-width: 900px) {
+        .columns {
+            width: 80%;
+        }
     }
     .carousel-container {
         width: 100%;

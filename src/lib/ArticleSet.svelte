@@ -11,17 +11,29 @@
 {#if header}
     <h2>{header}</h2>
 {/if}
-<div class="grid-container" style:width={`${sizePct}%`}>
+<div class="grid-container" style="width: {sizePct}%;">
     {#each articleData as { header, text, author, img }}
-        <Article {img} headline={header} summary={text} author={author} sideCar={sideCar} invertColors={invertColors} />
+        <Article
+            {img}
+            headline={header}
+            summary={text}
+            {author}
+            {sideCar}
+            {invertColors}
+        />
     {/each}
 </div>
 
 <style>
     .grid-container {
         display: grid;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: repeat(3, 1fr);
         gap: 40px;
         margin: auto;
+    }
+    @media (max-width: 750px) {
+        .grid-container {
+            grid-template-columns: 1fr;
+        }
     }
 </style>

@@ -11,7 +11,7 @@
     export let size = 100;
 </script>
 
-<div class="container" style:color={invertColors ? "var(--white)" : "var(--black)"} style:height={`${size}vh`} >
+<div class="container" style="color: {invertColors ? 'var(--white)' : 'var(--black)'}; height: {size}vh;">
     {#if textLeft}
         <div class="text">
             <Article invertColors={invertColors} headline={headline} summary={summary} author={author} headerSize={headerSize} summarySize={20}/>
@@ -32,13 +32,17 @@
         width: 90%;
         margin: auto;
     }
-    .text {
+    .text, img {
         width: 75%;
+        margin: auto;
         text-align: center;
-        margin: auto;
     }
-    img {
-        margin: auto;
-        width: 75%;
+    @media (max-width: 800px) {
+        .container {
+            grid-template-columns: 1fr;
+        }
+        .text, img {
+            width: 90%;
+        }
     }
 </style>

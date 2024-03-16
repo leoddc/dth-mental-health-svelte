@@ -37,7 +37,7 @@
         list-style: none;
         padding: 0;
         margin: auto;
-        width: fit-content;
+        width: max-content;
     }
 
     li {
@@ -61,5 +61,6 @@
         border-bottom: var(--black) solid 1px;
         background-color: var(--white);
         z-index: 999;
+        overflow-x: scroll;
     }
 </style>
