@@ -34,7 +34,7 @@
     <h2>{header}</h2>
 {/if}
 {#if headerImg}
-    <img src="{headerImg}" alt="Masthead" width="250">
+    <img src="{headerImg}" alt="Masthead" width="250" class="masthead">
 {/if}
 <Carousel {particlesToScroll} {particlesToShow} swiping={false}>
     {#each articleData as { header, text, author, img }}

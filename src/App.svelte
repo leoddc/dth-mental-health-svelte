@@ -195,6 +195,27 @@
             img: "https://source.unsplash.com/random/300x200",
         },
     ];
+
+    const technicianStories = [
+        {
+            header: "'It’s just crazy': Armando Bacot tearily reminisces on his five years at UNC after senior night win",
+            text: "Headin into the general election, the mood in Trump world is buoyant.",
+            author: "Juy Goe",
+            img: "https://source.unsplash.com/random/300x200",
+        },
+        {
+            header: "'He’s a dog, he’ a killer, he works hard': RJ Davis' rise from New York Gauchos to dominance in the ACC",
+            text: "Heading int the general election, the mood in Trump world is buoyant.",
+            author: "Juy Goe",
+            img: "https://source.unsplash.com/random/300x200",
+        },
+        {
+            header: "'He’s a dog, he’s a killer, he works hard': RJ Davis' rise from New York Gauchos to dominance in the ACC",
+            text: "Heading into the general election, the mood in Trump world is buoyant.",
+            author: "Juy Goe",
+            img: "https://source.unsplash.com/random/300x200",
+        },
+    ];
 </script>
 
 <!-- 
@@ -229,6 +250,7 @@
         { url: "#nine-times", text: "Nine Times" },
         { url: "#the-seahawk", text: "The Seahawk" },
         { url: "#the-east-carolinian", text: "The East Carolinian" },
+        { url: "#a-and-t-register", text: "A&T Register" },
         { url: "#a-and-t-register", text: "A&T Register" },
         { url: "#the-chronicle", text: "The Chronicle" },
     ]}
@@ -297,7 +319,7 @@
     <div class="carousel-container article-set case anchor-wrapper">
         <span class="anchor" id="the-daily-tar-heel"></span>
         <ArticleCase
-            headerImg={"https://d39xfl750sfsi8.cloudfront.net/5ef47efc0e35a7bfa7f484f971e85f62/dist/img/dth-masthead-logo.svg"}
+            headerImg={"mastheads/dth-masthead.png"}
             articleData={theDailyTarHeelStories}
         />
     </div>
@@ -308,7 +330,8 @@
             sizePct={70}
             articleData={thePendulumStories}
             sideCar={false}
-            header={"The Pendulum"}
+            headerImg={"mastheads/pendulum-masthead.png"}
+            imgSize={200}
         />
     </div>
     <div class="article-set case anchor-wrapper">
@@ -317,7 +340,8 @@
             sizePct={70}
             articleData={oldGoldAndBlackStories}
             sideCar={false}
-            header={"Old Gold & Black"}
+            headerImg={"mastheads/ogb-masthead.png"}
+            imgSize={275}
         />
     </div>
     <div class="article-set case anchor-wrapper">
@@ -326,7 +350,8 @@
             sizePct={70}
             articleData={nineTimeStories}
             sideCar={false}
-            header={"Nine Times"}
+            headerImg={"mastheads/nt-masthead.png"}
+            imgSize={225}
         />
     </div>
     <div class="article-set case anchor-wrapper">
@@ -335,7 +360,7 @@
             sizePct={70}
             articleData={theSeahawkStories}
             sideCar={false}
-            header={"The Seahawk"}
+            headerImg={"mastheads/seahawk-masthead.png"}
         />
     </div>
     <div class="article-set case anchor-wrapper">
@@ -353,7 +378,8 @@
             sizePct={70}
             articleData={aAndTRegisterStories}
             sideCar={false}
-            header={"A&T Register"}
+            headerImg={"mastheads/register-masthead.png"}
+            imgSize={175}
         />
     </div>
     <div class="article-set case anchor-wrapper">

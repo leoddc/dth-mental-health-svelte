@@ -28,3 +28,7 @@ h2, h3 {
     font-weight: 600;
     font-size: 14px;
 }
+
+.masthead {
+    margin-bottom: 20px;
+}

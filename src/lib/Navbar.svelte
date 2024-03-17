@@ -39,9 +39,8 @@
     ul {
         display: flex;
         list-style: none;
-        padding: 0;
         margin: auto;
-        padding: 15px 0;
+        padding: 15px 20px;
         width: max-content;
     }
 
@@ -75,10 +74,7 @@
         position: relative;
     }
 
-    @media (max-width: 800px) {
-
-        /* needs a wrapper */
-        .ul-wrapper::after {
+    .ul-wrapper::after {
             content: "";
             position: absolute;
             right: 0;
@@ -89,9 +85,4 @@
             pointer-events: none;
             z-index: 999;
         }
-
-        ul {
-            padding: 15px 20px;
-        }
-    }
 </style>
