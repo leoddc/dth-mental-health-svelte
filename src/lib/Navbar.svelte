@@ -21,14 +21,18 @@
     });
 </script>
 
-<nav bind:this={navbarElement} class="{isSticky ? 'sticky' : ''}">
-    <ul>
-        {#each data as { text, url }}
-            <li>
-                <a href={url}>{text}</a>
-            </li>
-        {/each}
-    </ul>
+<nav bind:this={navbarElement} class={isSticky ? "sticky" : ""}>
+    <div class="ul-wrapper">
+        <div class="scrollable">
+            <ul>
+                {#each data as { text, url }}
+                    <li>
+                        <a href={url}>{text}</a>
+                    </li>
+                {/each}
+            </ul>
+        </div>
+    </div>
 </nav>
 
 <style>
@@ -37,7 +41,12 @@
         list-style: none;
         padding: 0;
         margin: auto;
+        padding: 15px 0;
         width: max-content;
+    }
+
+    .scrollable {
+        overflow-x: scroll;
     }
 
     li {
@@ -57,10 +66,32 @@
 
     nav {
         width: 100%;
-        padding: 20px 0;
         border-bottom: var(--black) solid 1px;
         background-color: var(--white);
         z-index: 999;
-        overflow-x: scroll;
+    }
+
+    .ul-wrapper {
+        position: relative;
+    }
+
+    @media (max-width: 800px) {
+
+        /* needs a wrapper */
+        .ul-wrapper::after {
+            content: "";
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 60px;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, var(--white));
+            pointer-events: none;
+            z-index: 999;
+        }
+
+        ul {
+            padding: 15px 20px;
+        }
     }
 </style>
