@@ -31,7 +31,7 @@
                     {summary}
                 </p>
             {/if}
-            {#if summary}
+            {#if author}
                 <p class="author">By {author}</p>
             {/if}
         </div>
@@ -70,7 +70,5 @@
     }
     p {
         line-height: 1.41176em;
-    }
-    .summary {
     }
 </style>

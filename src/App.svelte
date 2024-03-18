@@ -30,22 +30,142 @@
 
     const theDailyTarHeelStories = [
         {
-            header: "'It’s jus crazy': Armando Bacot tearily reminisces on his five years at UNC after senior night win",
-            text: "Heading into the general election, the mood in Trump world is buoyant.",
-            author: "Juy Goe",
+            header: "Study examines mental health impact of campus gun-related incidents",
+            text: "Students more likely to have PTSD symptoms after UNC’s two incidents of gun violence",
+            author: "Lucy Kraus",
+            img: "images/dth-university-post-shooting-mental-health.png",
+        },
+        {
+            header: "UNC students of color find mental health support through community",
+            text: "Mental health resources, student organizations build communities for students of color",
+            author: "Hamsini Sivakumar and Daneen Khan",
+            img: "images/20240201-gao-Dth-university-lifestyle-mental-health-experience-as-poc-at-pwi.jpg",
+        },
+        {
+            header: "'It's OK to ask for assistance': how UNC's elite athletes use mental health as an edge",
+            text: "Sports across UNC use mental health resources, ask for help when needed",
+            author: "Shelby Swanson",
+            img: "images/Dth-sports-feature-rucker-mental-health.jpeg",
+        },
+        {
+            header: "LGBTQ+ support groups provide community care for substance abuse",
+            text: "LGBTQ+ individuals more likely to have serious mental illness, intersectional care provides support",
+            author: "Eliza Benbow",
+            img: "images/Diehl_lifestyle-queer-substance-abuse-solutions.jpeg",
+        },
+        {
+            header: "Culture-responsive care addresses mental health disparities in tribal communities",
+            text: "Culturally relevant practices look at cultural stressors, increasing accessibility of care",
+            author: "Kaitlyn Church",
+            img: "public/images/20240205_TRAN-lifestyle-indigenous-mental-health-resources-2.jpg",
+        },
+        {
+            header: "'Could have been doing this all along': State budget invests in mental health resources",
+            text: "Includes increase in Medicaid reimbursement rates, expanding justice system programs",
+            author: "Lucy Marques",
+            img: "images/Dth-city-politics-of-mental-funding-state.jpeg",
+        },
+        {
+            header: "'Testament to how seriously the state is taking suicide prevention': State launches mental health lifeline dashboard",
+            text: "Dashboard tracks calls made to crisis lifelines, providing transparency on service",
+            author: "Lola Oliverio",
             img: "https://source.unsplash.com/random/300x200",
         },
         {
-            header: "'He’s a dog, he’s akiller,he works hard': RJ Davis' rise from New York Gauchos to dominance in the ACC",
-            text: "Heading into the general election, the mood in Trump world is buoyant.",
-            author: "Juy Goe",
+            header: "'Testament to how seriously the state is taking suicide prevention': State launches mental health lifeline dashboard",
+            text: "Content warning: This article contains mentions of suicide and death.",
+            author: "Emmy Martin and Emily Vespa",
             img: "https://source.unsplash.com/random/300x200",
         },
         {
-            header: "'He’s a do, he’s a killer, he works hard': RJ Davis' rise from New York Gauchos to dominance in the ACC",
-            text: "Heading into the general election, the mood in Trump world is buoyant.",
-            author: "Juy Goe",
+            header: "Op-ed: It's time to replace the word 'stigma' with 'sanism'",
+            text: "",
+            author: "Krista Savage-White",
             img: "https://source.unsplash.com/random/300x200",
+        },
+        {
+            header: "Community members find mental health relief in spirituality",
+            text: "",
+            author: "Marisa Rosa",
+            img: "images/dth-lifestyle-mental-health-spirituality.jpeg",
+        },
+        {
+            header: "Column: Mental health is generational in minority communities. Acknowledge it",
+            text: "",
+            author: "Ankur Mutyala",
+            img: "images/dth-opinion-generational-mental-health.jpeg",
+        },
+        {
+            header: "Op-ed: Make space to help those struggling with their mental health",
+            text: "Content warning: This op-ed contains mention of suicide.",
+            author: "Lior Vered-Langley",
+            img: "https://source.unsplash.com/random/300x200",
+        },
+        {
+            header: "IN PROGRESS",
+            text: "",
+            author: "",
+            img: "images/calling-out-elected-officials.jpg",
+        },
+        {
+            header: "Mental health providers, patients face inconsistencies in insurance coverage",
+            text: "",
+            author: "Tori Newby and Maddie Policastro",
+            img: "https://source.unsplash.com/random/300x200",
+        },
+        {
+            header: "Criminal justice diversion programs redirect, guide individuals",
+            text: "",
+            author: "Sarah Smiley",
+            img: "https://source.unsplash.com/random/300x200",
+        },
+        {
+            header: "'It's about the process': Art therapy provides creative outlet as mental health care",
+            text: "",
+            author: "Mila Mascenik and Sophia Melin",
+            img: "https://source.unsplash.com/random/300x200",
+        },
+        {
+            header: "The Farm at Penny Lane grows hope through therapy programs",
+            text: "",
+            author: "Madison Gagnon",
+            img: "https://source.unsplash.com/random/300x200",
+        },
+        {
+            header: "Health humanities laboratory looks to bridge medical, social sciences",
+            text: "",
+            author: "Charlene Wu",
+            img: "images/Dth-lifestyle-health-humanities-mental-health-creative-solutions.jpeg",
+        },
+        {
+            header: "Study examines mental health impact of campus gun-related incidents",
+            text: "",
+            author: "Lucy Kraus",
+            img: "https://source.unsplash.com/random/300x200",
+        },
+        {
+            header: "'Therapy should be affordable to everyone': CAPS addresses financial burdens of therapy",
+            text: "",
+            author: "Samantha Nichols",
+            img: "public/images/dth-university-mental-health-cost-breakdown.png",
+        },
+        {
+            header: "Students and faculty reflect on university well-being days across North Carolina",
+            text: "Content Warning: This article contains mention of suicide.",
+            author: "Alli Pardue",
+            img: "images/university-well-being-checks-days.png",
+        },
+        {
+            header: "NO TITLE",
+            text: "",
+            author: "Samuel Long and junior Olivia Gschwind",
+            img: "https://source.unsplash.com/random/300x200",
+        },
+        {
+            header: "NO TITLE",
+            text: "",
+            author: "NO AUTHOR",
+            img: "images/Dth-lifestyle-alternative-forms-of-therapy-in-arts.jpeg",
         },
     ];
 
@@ -251,7 +371,7 @@
         { url: "#the-seahawk", text: "The Seahawk" },
         { url: "#the-east-carolinian", text: "The East Carolinian" },
         { url: "#a-and-t-register", text: "A&T Register" },
-        { url: "#a-and-t-register", text: "A&T Register" },
+        { url: "#technician", text: "The Technician" },
         { url: "#the-chronicle", text: "The Chronicle" },
     ]}
 />
@@ -266,43 +386,16 @@
             >
         </p>
         <TextColumns numberOfCols={2}>
-            Every time I walk through the Pit at UNC, I remember the sticky
-            notes and flowers left on those four green chairs three years ago. I
-            remember the candles that sat at their feet, the messages written in
-            chalk on the bricks.<br>“You’re fire will never truly die,” the largest
-            chalk message said. I remember the four students who died by suicide
-            that semester.<br>The mental health crisis we face has not subsided.
-            Last year, N.C. State lost seven students to suicide. From 2016 to
-            2020, there were 878 deaths by suicide in North Carolina of people
-            ages 15-24. A national survey conducted by the American College
-            Health Association found that 52 percent of undergraduate students
-            regularly experienced moderate psychological distress. While this
-            problem isn’t new, it feels more important that ever.<br>That’s why The
-            Daily Tar Heel partnered with eight other college newspapers to
-            report on mental health challenges shared by those in each of their
-            communities. What you hold in your hands is the result of months of
-            rigorous reporting, research, conversations, writing, editing and
-            designing. This initiative began in 2023, when The Daily Tar Heel
-            was awarded a grant from the Solutions Journalism Network as part of
-            its Student Media Challenge initiative. That grant helped fund the
-            collaborative work of this project. Many of the stories you will
-            read in this newspaper do more than just present a problem — they
-            also explore solutions to this crisis.<br>The Daily Tar Heel is honored
-            to have had the privilege of working with The A&T Register, The Duke
-            Chronicle, The East Carolinian, The Niner Times, The Old Gold &
-            Black, The Pendulum, The Seahawk and The Technician on this project.<br>
-            With more than 40 reported stories and seven opinion pieces, we
-            touch many issues related to mental health — from wow Wake Forest
-            University trains its faculty to be on the frontline of mental
-            health care to how international students create community at East
-            Carolina Univeristy.<br>While there’s more that still must be, this is
-            a step toward that future. As we navigate the complexities of mental
-            health, we must not lose sight of the individual people behind the
-            statistics — the students, faculty, families and communities
-            affected. Their stories, their struggles and their resilience should
-            serve as a guiding light. We hope that this mental health
-            collaborative project serves as a call to action to create a future
-            where no one suffers in silence.
+            <span class="column">
+                <p style:margin-top={0}>Every time I walk through the Pit at UNC, I remember the sticky notes and flowers left on those green chairs three years ago. I remember the candles that sat at their feet, the messages written in chalk on the bricks. </p>
+                <p>“You’re fire will never truly die,” the largest chalk message said. I remember the four students who died by suicide that semester. </p>
+                <p>The mental health crisis we face has not subsided. Last year, N.C. State lost seven students to suicide. From 2016 to 2020, there were 878 deaths by suicide in North Carolina of people ages 15 to 24. A national survey conducted by the American College Health Association found that 52 percent of undergraduate students regularly experienced moderate psychological distress. While this problem isn’t new, it feels more important that ever. </p>
+                <p>That’s why The Daily Tar Heel partnered with eight other college newspapers to report on mental health challenges shared by those in each of their communities. This Mental Health Collaborative is the result of months of rigorous reporting, research, conversations, writing, editing and designing. This initiative began in 2023, when The Daily Tar Heel was awarded a grant from the Solutions Journalism Network as part of its Student Media Challenge initiative. That grant helped fund the collaborative work of this project. Many of the stories you will read in this collaborative do more than just present a problem — they also explore solutions to this crisis.</p>
+                <p>The Daily Tar Heel is honored to have had the privilege of working with The A&T Register, The Duke Chronicle, The East Carolinian, The Niner Times, The Old Gold & Black, The Pendulum, The Seahawk and The Technician on this project.</p>
+                <p>With more than 40 reported stories and seven opinion pieces, we touch many issues related to mental health — from how Wake Forest University trains its faculty to be on the frontline of mental health care to how international students create community at East Carolina Univeristy. </p>
+                <p>While there’s more that still must be, this is a step toward that future. As we navigate the complexities of mental health, we must not lose sight of the individual people behind the statistics — the students, faculty, families and communities affected. Their stories, their struggles and their resilience should serve as a guiding light. We hope that this mental health collaborative project serves as a call to action to create a future where no one suffers in silence. </p>
+                
+            </span>
         </TextColumns>
     </div>
 </main>
@@ -383,6 +476,16 @@
         />
     </div>
     <div class="article-set case anchor-wrapper">
+        <span class="anchor" id="technician"></span>
+        <ArticleSet
+            sizePct={70}
+            articleData={aAndTRegisterStories}
+            sideCar={false}
+            headerImg={"mastheads/technician-masthead.png"}
+            imgSize={175}
+        />
+    </div>
+    <div class="article-set case anchor-wrapper">
         <span class="anchor" id="the-chronicle"></span>
         <ArticleSet
             sizePct={70}
@@ -402,11 +505,20 @@
         />
     </div>
 </main>
+<footer></footer>
 
 <style>
     main {
         margin: auto;
         width: 90%;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    .column {
+        line-height: 23px;
     }
 
     .anchor-wrapper {

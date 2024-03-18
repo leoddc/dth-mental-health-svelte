@@ -60,7 +60,11 @@
         text-decoration: none;
         color: #000;
         font-family: Arial, sans-serif;
-        font-weight: 600;
+    }
+
+    a:hover {
+        text-decoration: underline;
+        text-underline-offset: 4px;
     }
 
     nav {
