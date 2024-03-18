@@ -21,7 +21,13 @@
             <img src={img} alt={headline} />
         {/if}
         <div class="text-wrapper">
+            {#if url}
+            <a href="{url}">
+                <h3 style="font-size: {headerSize}px;" style:color={invertColors ? "var(--white)" : "var(--black)"}>{headline}</h3>
+            </a>
+            {:else}
             <h3 style="font-size: {headerSize}px;" style:color={invertColors ? "var(--white)" : "var(--black)"}>{headline}</h3>
+            {/if}
             {#if summary}
                 <p
                     class="summary"
@@ -43,6 +49,9 @@
         text-decoration: none;
         color: unset;
     }
+    a:hover {
+        text-decoration: underline;
+    }
     .text-wrapper {
         /* margin: 0 10px; */
     }
@@ -58,7 +67,8 @@
     }
     img {
         width: 100%;
-        object-fit: cover;
+        aspect-ratio: 3/2;
+        object-fit: fill;
     }
     h3 {
         line-height: 1.27273em;

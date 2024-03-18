@@ -13,6 +13,7 @@
             text: "Heading ito the general election, the mood in Trump world is buoyant.",
             author: "Juy Goe",
             img: "https://source.unsplash.com/random/300x200",
+            url: "https://example.com"
         },
         {
             header: "'He’s a dog, he’s a killer, hewrks hard': RJ Davis' rise from New York Gauchos to dominance in the ACC",
@@ -34,6 +35,7 @@
             text: "Students more likely to have PTSD symptoms after UNC’s two incidents of gun violence",
             author: "Lucy Kraus",
             img: "images/dth-university-post-shooting-mental-health.png",
+            url: "https://example.com"
         },
         {
             header: "UNC students of color find mental health support through community",
@@ -57,7 +59,7 @@
             header: "Culture-responsive care addresses mental health disparities in tribal communities",
             text: "Culturally relevant practices look at cultural stressors, increasing accessibility of care",
             author: "Kaitlyn Church",
-            img: "public/images/20240205_TRAN-lifestyle-indigenous-mental-health-resources-2.jpg",
+            img: "images/20240205_TRAN-lifestyle-indigenous-mental-health-resources-2.jpg",
         },
         {
             header: "'Could have been doing this all along': State budget invests in mental health resources",
@@ -69,13 +71,13 @@
             header: "'Testament to how seriously the state is taking suicide prevention': State launches mental health lifeline dashboard",
             text: "Dashboard tracks calls made to crisis lifelines, providing transparency on service",
             author: "Lola Oliverio",
-            img: "https://source.unsplash.com/random/300x200",
+            img: "images/Dth-city-ncdhhs-mental-health-dashboard-data.jpg",
         },
         {
-            header: "'Testament to how seriously the state is taking suicide prevention': State launches mental health lifeline dashboard",
+            header: "How two flagship North Carolina universities responded after several student deaths",
             text: "Content warning: This article contains mentions of suicide and death.",
             author: "Emmy Martin and Emily Vespa",
-            img: "https://source.unsplash.com/random/300x200",
+            img: "images/dth–technician-mental-health-public-suicide.jpg",
         },
         {
             header: "Op-ed: It's time to replace the word 'stigma' with 'sanism'",
@@ -111,7 +113,7 @@
             header: "Mental health providers, patients face inconsistencies in insurance coverage",
             text: "",
             author: "Tori Newby and Maddie Policastro",
-            img: "https://source.unsplash.com/random/300x200",
+            img: "images/Dth-city-insurance-coverage-gap-statewide-solution.jpeg",
         },
         {
             header: "Criminal justice diversion programs redirect, guide individuals",
@@ -138,12 +140,6 @@
             img: "images/Dth-lifestyle-health-humanities-mental-health-creative-solutions.jpeg",
         },
         {
-            header: "Study examines mental health impact of campus gun-related incidents",
-            text: "",
-            author: "Lucy Kraus",
-            img: "https://source.unsplash.com/random/300x200",
-        },
-        {
             header: "'Therapy should be affordable to everyone': CAPS addresses financial burdens of therapy",
             text: "",
             author: "Samantha Nichols",
@@ -156,9 +152,9 @@
             img: "images/university-well-being-checks-days.png",
         },
         {
-            header: "NO TITLE",
+            header: "Op-ed: UNC’s win-at-all-cost attitude jeopardizes the safety of athletes",
             text: "",
-            author: "Samuel Long and junior Olivia Gschwind",
+            author: "Samuel Long and Olivia Gschwind",
             img: "https://source.unsplash.com/random/300x200",
         },
         {
@@ -381,20 +377,73 @@
         <span class="anchor" id="introduction"></span>
         <h2>Behind the Mental Health Collaborative</h2>
         <p class="author">
-            By Emmy Martin<br /><span class="byline"
+            By <a href="https://www.dailytarheel.com/staff/emmy-martin"
+                >Emmy Martin</a
+            ><br /><span class="byline"
                 >Editor in Chief of The Daily Tar Heel</span
             >
         </p>
         <TextColumns numberOfCols={2}>
             <span class="column">
-                <p style:margin-top={0}>Every time I walk through the Pit at UNC, I remember the sticky notes and flowers left on those green chairs three years ago. I remember the candles that sat at their feet, the messages written in chalk on the bricks. </p>
-                <p>“You’re fire will never truly die,” the largest chalk message said. I remember the four students who died by suicide that semester. </p>
-                <p>The mental health crisis we face has not subsided. Last year, N.C. State lost seven students to suicide. From 2016 to 2020, there were 878 deaths by suicide in North Carolina of people ages 15 to 24. A national survey conducted by the American College Health Association found that 52 percent of undergraduate students regularly experienced moderate psychological distress. While this problem isn’t new, it feels more important that ever. </p>
-                <p>That’s why The Daily Tar Heel partnered with eight other college newspapers to report on mental health challenges shared by those in each of their communities. This Mental Health Collaborative is the result of months of rigorous reporting, research, conversations, writing, editing and designing. This initiative began in 2023, when The Daily Tar Heel was awarded a grant from the Solutions Journalism Network as part of its Student Media Challenge initiative. That grant helped fund the collaborative work of this project. Many of the stories you will read in this collaborative do more than just present a problem — they also explore solutions to this crisis.</p>
-                <p>The Daily Tar Heel is honored to have had the privilege of working with The A&T Register, The Duke Chronicle, The East Carolinian, The Niner Times, The Old Gold & Black, The Pendulum, The Seahawk and The Technician on this project.</p>
-                <p>With more than 40 reported stories and seven opinion pieces, we touch many issues related to mental health — from how Wake Forest University trains its faculty to be on the frontline of mental health care to how international students create community at East Carolina Univeristy. </p>
-                <p>While there’s more that still must be, this is a step toward that future. As we navigate the complexities of mental health, we must not lose sight of the individual people behind the statistics — the students, faculty, families and communities affected. Their stories, their struggles and their resilience should serve as a guiding light. We hope that this mental health collaborative project serves as a call to action to create a future where no one suffers in silence. </p>
-                
+                <p style:margin-top={0}>
+                    Every time I walk through the Pit at UNC, I remember the
+                    sticky notes and flowers left on those green chairs three
+                    years ago. I remember the candles that sat at their feet,
+                    the messages written in chalk on the bricks.
+                </p>
+                <p>
+                    “You’re fire will never truly die,” the largest chalk
+                    message said. I remember the four students who died by
+                    suicide that semester.
+                </p>
+                <p>
+                    The mental health crisis we face has not subsided. Last
+                    year, N.C. State lost seven students to suicide. From 2016
+                    to 2020, there were 878 deaths by suicide in North Carolina
+                    of people ages 15 to 24. A national survey conducted by the
+                    American College Health Association found that 52 percent of
+                    undergraduate students regularly experienced moderate
+                    psychological distress. While this problem isn’t new, it
+                    feels more important that ever.
+                </p>
+                <p>
+                    That’s why The Daily Tar Heel partnered with eight other
+                    college newspapers to report on mental health challenges
+                    shared by those in each of their communities. This Mental
+                    Health Collaborative is the result of months of rigorous
+                    reporting, research, conversations, writing, editing and
+                    designing. This initiative began in 2023, when The Daily Tar
+                    Heel was awarded a grant from the Solutions Journalism
+                    Network as part of its Student Media Challenge initiative.
+                    That grant helped fund the collaborative work of this
+                    project. Many of the stories you will read in this
+                    collaborative do more than just present a problem — they
+                    also explore solutions to this crisis.
+                </p>
+                <p>
+                    The Daily Tar Heel is honored to have had the privilege of
+                    working with The A&T Register, The Duke Chronicle, The East
+                    Carolinian, The Niner Times, The Old Gold & Black, The
+                    Pendulum, The Seahawk and The Technician on this project.
+                </p>
+                <p>
+                    With more than 40 reported stories and seven opinion pieces,
+                    we touch many issues related to mental health — from how
+                    Wake Forest University trains its faculty to be on the
+                    frontline of mental health care to how international
+                    students create community at East Carolina Univeristy.
+                </p>
+                <p>
+                    While there’s more that still must be, this is a step toward
+                    that future. As we navigate the complexities of mental
+                    health, we must not lose sight of the individual people
+                    behind the statistics — the students, faculty, families and
+                    communities affected. Their stories, their struggles and
+                    their resilience should serve as a guiding light. We hope
+                    that this mental health collaborative project serves as a
+                    call to action to create a future where no one suffers in
+                    silence.
+                </p>
             </span>
         </TextColumns>
     </div>
@@ -462,7 +511,7 @@
             sizePct={70}
             articleData={theEastCarolinianStories}
             sideCar={false}
-            header={"The East Carolinian"}
+            headerImg={"mastheads/tec-masthead.png"}
         />
     </div>
     <div class="article-set case anchor-wrapper">
@@ -491,7 +540,8 @@
             sizePct={70}
             articleData={theChronicleStories}
             sideCar={false}
-            header={"The Chronicle"}
+            headerImg={"mastheads/dtc-masthead.png"}
+            imgSize={200}
         />
     </div>
 
@@ -505,7 +555,33 @@
         />
     </div>
 </main>
-<footer></footer>
+<footer>
+    <div class="footer-wrapper">
+        <h3>The Mental Health Edition</h3>
+        <section class="footer-grid">
+            <p>
+                <b>Mental Health Resources</b><br />
+                Call or text 988 or chat online if you’re thinking about suicide, are
+                worried about a friend or need emotional support. Text START to the Crisis
+                Text Line at 741-741
+            </p>
+            <p>
+                <b>Credits</b><br />
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
+                ipsa quo sint ullam itaque veritatis eos omnis delectus voluptate aperiam
+                sapiente accusantium provident illum sequi, sunt corrupti doloremque
+                ratione cum.
+            </p>
+            <p>
+                <b>Credits</b><br />
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
+                ipsa quo sint ullam itaque veritatis eos omnis delectus voluptate aperiam
+                sapiente accusantium provident illum sequi, sunt corrupti doloremque
+                ratione cum.
+            </p>
+        </section>
+    </div>
+</footer>
 
 <style>
     main {
@@ -515,6 +591,19 @@
 
     footer {
         width: 100%;
+        background-color: var(--black);
+        color: var(--white);
+        padding: 60px 0;
+    }
+
+    .footer-wrapper {
+        padding: 60px;
+    }
+
+    .footer-grid {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 20px;
     }
 
     .column {

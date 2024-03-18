@@ -17,14 +17,15 @@
     <img src="{headerImg}" alt="Masthead" width="{imgSize}" class="masthead">
 {/if}
 <div class="grid-container" style="width: {sizePct}%;">
-    {#each articleData as { header, text, author, img }}
+    {#each articleData as { header, text, author, img, url }}
         <Article
             {img}
             headline={header}
             summary={text}
-            {author}
-            {sideCar}
-            {invertColors}
+            author={author}
+            sideCar={sideCar}
+            invertColors={invertColors}
+            url={url}
         />
     {/each}
 </div>

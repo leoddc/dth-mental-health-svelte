@@ -37,7 +37,7 @@
     <img src="{headerImg}" alt="Masthead" width="250" class="masthead">
 {/if}
 <Carousel {particlesToScroll} {particlesToShow} swiping={false}>
-    {#each articleData as { header, text, author, img }}
-        <Article {img} headline={header} summary={text} author={author} />
+    {#each articleData as { header, text, author, img, url }}
+        <Article {img} headline={header} summary={text} author={author} url={url} />
     {/each}
 </Carousel>
