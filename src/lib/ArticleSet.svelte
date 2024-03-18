@@ -16,8 +16,8 @@
 {#if headerImg}
     <img src="{headerImg}" alt="Masthead" width="{imgSize}" class="masthead">
 {/if}
-<div class="grid-container" style="width: {sizePct}%;">
-    {#each articleData as { header, text, author, img, url }}
+<div class="grid-container" style="width: {sizePct}%; grid-template-columns: repeat({articleData.length}, 1fr);">
+    {#each articleData as { header, text, author, img, url, label }}
         <Article
             {img}
             headline={header}
@@ -26,6 +26,7 @@
             sideCar={sideCar}
             invertColors={invertColors}
             url={url}
+            label={label}
         />
     {/each}
 </div>
@@ -33,13 +34,12 @@
 <style>
     .grid-container {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
         gap: 40px;
         margin: auto;
     }
     @media (max-width: 750px) {
         .grid-container {
-            grid-template-columns: 1fr;
+            grid-template-columns: 1fr !important;
         }
     }
 </style>

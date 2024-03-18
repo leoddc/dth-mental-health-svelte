@@ -7,8 +7,8 @@
     export let headerSize = 22;
     export let summarySize = 17;
     export let invertColors = false;
-    export let isLink = true;
     export let url = "";
+    export let label = "";
 </script>
 
 <div class="article">
@@ -21,12 +21,27 @@
             <img src={img} alt={headline} />
         {/if}
         <div class="text-wrapper">
+            {#if label}
+                <p class="label">{label}</p>
+            {/if}
             {#if url}
-            <a href="{url}">
-                <h3 style="font-size: {headerSize}px;" style:color={invertColors ? "var(--white)" : "var(--black)"}>{headline}</h3>
-            </a>
+                <a href={url}>
+                    <h3
+                        style="font-size: {headerSize}px;"
+                        style:color={invertColors
+                            ? "var(--white)"
+                            : "var(--black)"}
+                    >
+                        {headline}
+                    </h3>
+                </a>
             {:else}
-            <h3 style="font-size: {headerSize}px;" style:color={invertColors ? "var(--white)" : "var(--black)"}>{headline}</h3>
+                <h3
+                    style="font-size: {headerSize}px;"
+                    style:color={invertColors ? "var(--white)" : "var(--black)"}
+                >
+                    {headline}
+                </h3>
             {/if}
             {#if summary}
                 <p
@@ -52,6 +67,15 @@
     a:hover {
         text-decoration: underline;
     }
+
+    .label {
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        margin: 0;
+        text-transform: uppercase;
+        color: #cc2626;
+    }
     .text-wrapper {
         /* margin: 0 10px; */
     }
@@ -64,11 +88,13 @@
     }
     .article {
         display: flex;
+        max-width: 400px;
+        margin: 10px auto;
     }
     img {
         width: 100%;
         aspect-ratio: 3/2;
-        object-fit: fill;
+        object-fit: cover;
     }
     h3 {
         line-height: 1.27273em;

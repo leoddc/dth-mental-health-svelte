@@ -2,25 +2,24 @@
     import Article from "./Article.svelte";
 
     export let img;
-    export let headline;
     export let summary = "";
     export let author = "";
     export let textLeft = true;
     export let invertColors = false;
     export let headerSize = 26;
-    export let size = 100;
+    export let size = 90;
 </script>
 
 <div class="container" style="color: {invertColors ? 'var(--white)' : 'var(--black)'}; --size: {size}vh;">
     {#if textLeft}
         <div class="text">
-            <Article invertColors={invertColors} headline={headline} summary={summary} author={author} headerSize={headerSize} summarySize={20}/>
+            <slot name="text"/>
         </div>
         <img src="{img}" alt="">
     {:else}
         <img src="{img}" alt="">
         <div class="text">
-            <Article invertColors={invertColors} headline={headline} summary={summary} author={author} headerSize={headerSize} summarySize={20}/>
+            <slot name="text"/>
         </div>
     {/if}
 </div>

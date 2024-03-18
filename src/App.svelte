@@ -13,7 +13,7 @@
             text: "Heading ito the general election, the mood in Trump world is buoyant.",
             author: "Juy Goe",
             img: "https://source.unsplash.com/random/300x200",
-            url: "https://example.com"
+            url: "https://example.com",
         },
         {
             header: "'He’s a dog, he’s a killer, hewrks hard': RJ Davis' rise from New York Gauchos to dominance in the ACC",
@@ -35,7 +35,8 @@
             text: "Students more likely to have PTSD symptoms after UNC’s two incidents of gun violence",
             author: "Lucy Kraus",
             img: "images/dth-university-post-shooting-mental-health.png",
-            url: "https://example.com"
+            url: "https://example.com",
+            label: "label",
         },
         {
             header: "UNC students of color find mental health support through community",
@@ -143,7 +144,7 @@
             header: "'Therapy should be affordable to everyone': CAPS addresses financial burdens of therapy",
             text: "",
             author: "Samantha Nichols",
-            img: "public/images/dth-university-mental-health-cost-breakdown.png",
+            img: "images/dth-university-mental-health-cost-breakdown.png",
         },
         {
             header: "Students and faculty reflect on university well-being days across North Carolina",
@@ -167,128 +168,85 @@
 
     const thePendulumStories = [
         {
-            header: "'I’s just crazy': Armando Bacot tearily reminisces on his five years at UNC after senior night win",
-            text: "Heading into the general election, th mood in Trump world is buoyant.",
-            author: "Juy Goe",
+            header: "Phoenix Free: Sobriety on campus",
+            author: "Avery Sloan",
             img: "https://source.unsplash.com/random/300x200",
         },
         {
-            header: "'He’s a dog, he’s a killer, hworks hard': RJ Davis' rise from New York Gauchos to dominance in the ACC",
-            text: "Heading into the genera election, the mood in Trump world is buoyant.",
-            author: "Juy Goe",
+            header: "College culture’s influence on eating disorders",
+            author: "Nia Bedard",
             img: "https://source.unsplash.com/random/300x200",
         },
         {
-            header: "'He’s a dog, he’s a killer, he works hard': RJ Davis' rise from New York Gauchos to dominance in the ACC",
-            text: "Heading into the geneal election, the mood in Trump world is buoyant.",
-            author: "Juy Goe",
+            header: "HealthEU moves toward new wellness center",
+            author: "Lilly Molina",
             img: "https://source.unsplash.com/random/300x200",
         },
     ];
 
     const oldGoldAndBlackStories = [
         {
-            header: "'It’s jst crazy': Armando Bacot tearily reminisces on his five years at UNC after senior night win",
-            text: "Heading into the general election, he mood in Trump world is buoyant.",
-            author: "Juy Goe",
+            header: "If You’re Reading This: Student-led mental health resource offers fresh perspectives",
+            author: "Aaron Nataline",
             img: "https://source.unsplash.com/random/300x200",
         },
         {
-            header: "'He’s a dog, he’s killer, he works hard': RJ Davis' rise from New York Gauchos to dominance in the ACC",
-            text: "Heaing into the general election, the mood in Trump world is buoyant.",
-            author: "Juy Goe",
+            header: "The UCC’s journey from pandemic pitfalls and back",
+            author: "Breanna Laws",
             img: "https://source.unsplash.com/random/300x200",
         },
         {
-            header: "'He’s a dg, he’s a killer, he works hard': RJ Davis' rise from New York Gauchos to dominance in the ACC",
-            text: "Heading into the general election, the mood in Trump world is buoyant.",
-            author: "Juy Goe",
+            header: "How Wake Forest trains its faculty to be on the frontline of mental health care",
+            author: "Christa Dutton",
             img: "https://source.unsplash.com/random/300x200",
         },
     ];
 
     const nineTimeStories = [
         {
-            header: "'It’s just craz': Armando Bacot tearily reminisces on his five years at UNC after senior night win",
-            text: "Heading into the general election, the mood in Trump world is buoyant.",
-            author: "Juy Goe",
+            header: "How UNC Charlotte’s student support organizations help international students with off-campus housing challenges",
+            author: "Sunnya Hadavi and AJ Siegel ",
             img: "https://source.unsplash.com/random/300x200",
         },
         {
-            header: "'He’s a og, he’s a killer, he works hard': RJ Davis' rise fom New York Gauchos to dominance in the ACC",
-            text: "Heading into the general election, the mood in Trump world is buoyant.",
-            author: "Juy Goe",
+            header: "Partnership between AthleteTalk and Charlotte Athletics is helping student-athletes grow mental health literacy",
+            author: "Bryson Foster ",
             img: "https://source.unsplash.com/random/300x200",
-        },
-        {
-            header: "'He’s a dog, he’s a killer, he works hard': RJ Davis' rise from New York Gauchos to dominance in the ACC",
-            text: "Heading into the general election, the mood in Trmp world is buoyant.",
-            author: "Juy Goe",
-            img: "https://source.unsplash.com/random/300x200",
-        },
+        }
     ];
 
     const theSeahawkStories = [
         {
-            header: "'It’s just crazy': Armando Bacot tearily reminisces on his five years at UNC after senior night win",
-            text: "Heading into the genral election, the mood in Trump world is buoyant.",
-            author: "Juy Goe",
-            img: "https://source.unsplash.com/random/300x200",
-        },
-        {
-            header: "'He’s a dog,he’s a killer, he works hard': RJ Davis' rise from New York Gauchos to dominance in the ACC",
-            text: "Heading into th general election, the mood in Trump world is buoyant.",
-            author: "Juy Goe",
-            img: "https://source.unsplash.com/random/300x200",
-        },
-        {
-            header: "'He’s a dog, he’s a killer, he works hard': RJ Davis' rise from New York Gauchos to dominance in the ACC",
-            text: "Heading nto the general election, the mood in Trump world is buoyant.",
-            author: "Juy Goe",
+            header: "Community, Isolation and Politics: The Mental Health of Queer Students at UNCW",
+            author: "Hannah Markov",
             img: "https://source.unsplash.com/random/300x200",
         },
     ];
 
     const theEastCarolinianStories = [
         {
-            header: "'It’s just craz': Armando Bacot tearily reminisces on his five years at UNC after senior night win",
-            text: "Heading into the general electin, the mood in Trump world is buoyant.",
-            author: "Juy Goe",
+            header: "The community building within ECU",
+            author: "Kiarra Crayton",
             img: "https://source.unsplash.com/random/300x200",
         },
         {
-            header: "'He’s a dog, he’s ailler, he works hard': RJ Davis' rise from New York Gauchos to dominance in the ACC",
-            text: "Heading into the general election, the mood in Trump world is buoyant.",
-            author: "Juy Goe",
+            header: "Morgan’s Message spreads mental health awareness in student-athletes",
+            author: "Kiarra Crayton",
             img: "https://source.unsplash.com/random/300x200",
-        },
-        {
-            header: "'He’s a dog, he’s a killer, he works hard': RJ Davis' rise from New York Gauchos to dominance in the ACC",
-            text: "Heading into the genera election, the mood in Trump world is buoyant.",
-            author: "Juy Goe",
-            img: "https://source.unsplash.com/random/300x200",
-        },
+        }
     ];
 
     const aAndTRegisterStories = [
         {
-            header: "'It’s ust crazy': Armando Bacot tearily reminisces on his five years at UNC after senior night win",
-            text: "Heading into the general election, the mood in Trump world is buoyant.",
-            author: "Juy Goe",
+            header: "The state of mental health at N.C. A&T and where it can improve",
+            author: "Rosegalie Cineus and Kaila Collier",
             img: "https://source.unsplash.com/random/300x200",
         },
         {
-            header: "'He’s a dog, he’sa kiler, he works hard': RJ Davis' rise from New York Gauchos to dominance in the ACC",
-            text: "Heading into the general election, the mood in Trump world is buoyant.",
-            author: "Juy Goe",
+            header: "HBCUs Grapple with Tuition Increases and Student Mental Health",
+            author: "Dasia Williams",
             img: "https://source.unsplash.com/random/300x200",
-        },
-        {
-            header: "'He’s a dog, he’s a killer, he works hard': RJ Davis' rise from New York Gauchos to dominance in the ACC",
-            text: "Heading into the geeral election, the mood in Trump world is buoyant.",
-            author: "Juy Goe",
-            img: "https://source.unsplash.com/random/300x200",
-        },
+        }
     ];
 
     const theChronicleStories = [
@@ -314,23 +272,10 @@
 
     const technicianStories = [
         {
-            header: "'It’s just crazy': Armando Bacot tearily reminisces on his five years at UNC after senior night win",
-            text: "Headin into the general election, the mood in Trump world is buoyant.",
-            author: "Juy Goe",
+            header: "Duke researchers work on mental wellbeing studies exploring how we think, feel and socialize.",
+            author: "?",
             img: "https://source.unsplash.com/random/300x200",
-        },
-        {
-            header: "'He’s a dog, he’ a killer, he works hard': RJ Davis' rise from New York Gauchos to dominance in the ACC",
-            text: "Heading int the general election, the mood in Trump world is buoyant.",
-            author: "Juy Goe",
-            img: "https://source.unsplash.com/random/300x200",
-        },
-        {
-            header: "'He’s a dog, he’s a killer, he works hard': RJ Davis' rise from New York Gauchos to dominance in the ACC",
-            text: "Heading into the general election, the mood in Trump world is buoyant.",
-            author: "Juy Goe",
-            img: "https://source.unsplash.com/random/300x200",
-        },
+        }
     ];
 </script>
 
@@ -351,19 +296,19 @@
         headerSize={40}
         invertColors={true}
         img={"https://source.unsplash.com/random"}
-        headline={"The Mental Health Edition"}
         size={100}
-    />
+    >
+        <h1 slot="text">The Mental Health Edition</h1>
+    </Feature>
 </div>
 
 <Navbar
     data={[
         { url: "#introduction", text: "Introduction" },
-        { url: "#collaborative-stories", text: "Collaborative Stories" },
         { url: "#the-daily-tar-heel", text: "The Daily Tar Heel" },
         { url: "#the-pendulum", text: "The Pendulum" },
         { url: "#old-gold-and-black", text: "Old Gold & Black" },
-        { url: "#nine-times", text: "Nine Times" },
+        { url: "#nine-times", text: "Niner Times" },
         { url: "#the-seahawk", text: "The Seahawk" },
         { url: "#the-east-carolinian", text: "The East Carolinian" },
         { url: "#a-and-t-register", text: "A&T Register" },
@@ -392,19 +337,19 @@
                     the messages written in chalk on the bricks.
                 </p>
                 <p>
-                    “You’re fire will never truly die,” the largest chalk
-                    message said. I remember the four students who died by
-                    suicide that semester.
+                    “Your fire will never truly die,” the largest chalk message
+                    said. I remember the four students who died by suicide that
+                    semester.
                 </p>
                 <p>
                     The mental health crisis we face has not subsided. Last
                     year, N.C. State lost seven students to suicide. From 2016
-                    to 2020, there were 878 deaths by suicide in North Carolina
-                    of people ages 15 to 24. A national survey conducted by the
+                    to 2020, there were 878 deaths by suicide of people ages 15
+                    to 24 in North Carolina. A national survey conducted by the
                     American College Health Association found that 52 percent of
                     undergraduate students regularly experienced moderate
                     psychological distress. While this problem isn’t new, it
-                    feels more important that ever.
+                    feels more important than ever.
                 </p>
                 <p>
                     That’s why The Daily Tar Heel partnered with eight other
@@ -428,36 +373,32 @@
                 </p>
                 <p>
                     With more than 40 reported stories and seven opinion pieces,
-                    we touch many issues related to mental health — from how
+                    we touch on many issues related to mental health, from how
                     Wake Forest University trains its faculty to be on the
                     frontline of mental health care to how international
-                    students create community at East Carolina Univeristy.
+                    students create community at East Carolina University.
                 </p>
                 <p>
-                    While there’s more that still must be, this is a step toward
-                    that future. As we navigate the complexities of mental
-                    health, we must not lose sight of the individual people
-                    behind the statistics — the students, faculty, families and
-                    communities affected. Their stories, their struggles and
-                    their resilience should serve as a guiding light. We hope
-                    that this mental health collaborative project serves as a
-                    call to action to create a future where no one suffers in
-                    silence.
+                    While there’s still more that must be done, this is a step
+                    toward that future. As we navigate the complexities of
+                    mental health, we must not lose sight of the individual
+                    people behind the statistics — the students, faculty,
+                    families and communities affected. Their stories, their
+                    struggles and their resilience should serve as a guiding
+                    light. We hope that this mental health collaborative project
+                    serves as a call to action to create a future where no one
+                    suffers in silence.
                 </p>
             </span>
         </TextColumns>
     </div>
-</main>
-<div class="article-set case black-back anchor-wrapper">
-    <span class="anchor" id="collaborative-stories"></span>
-    <h2 class="edge-header" style:color={"white"}>Collaborative Stories</h2>
-    <ArticleSet
-        articleData={collborativeStories}
-        sideCar={false}
-        invertColors={true}
-    />
-</div>
-<main>
+    <Feature img={"https://source.unsplash.com/random"}>
+        <Article slot="text"
+            headline={"Students and faculty reflect on university well-being days across North Carolina"}
+            author={"Alli Pardue"}
+            summary={"Content Warning: This article contains mention of suicide."}
+        />
+    </Feature>
     <div class="carousel-container article-set case anchor-wrapper">
         <span class="anchor" id="the-daily-tar-heel"></span>
         <ArticleCase
@@ -465,7 +406,13 @@
             articleData={theDailyTarHeelStories}
         />
     </div>
-
+    <Feature img={"https://source.unsplash.com/random"}>
+        <Article slot="text"
+            headline={"How two flagship North Carolina universities responded after several student deaths"}
+            author={"Emmy Martin and Emily Vespa"}
+            summary={"Content Warning: This article contains mention of suicide."}
+        />
+    </Feature>
     <div class="article-set case anchor-wrapper">
         <span class="anchor" id="the-pendulum"></span>
         <ArticleSet
@@ -476,6 +423,12 @@
             imgSize={200}
         />
     </div>
+    <Feature img={"https://source.unsplash.com/random"}>
+        <Article slot="text"
+            headline={"How UNC Charlotte’s student support organizations help international students with off-campus housing challenges"}
+            author={"Sunnya Hadavi and AJ Siegel"}
+        />
+    </Feature>
     <div class="article-set case anchor-wrapper">
         <span class="anchor" id="old-gold-and-black"></span>
         <ArticleSet
@@ -486,6 +439,13 @@
             imgSize={275}
         />
     </div>
+    <Feature img={"https://source.unsplash.com/random"}>
+        <Article slot="text"
+            headline={"The UCC’s journey from pandemic pitfalls and back"}
+            summary={"The UCC struggled to meet demand during the pandemic. Now, the center boasts high student satisfaction rates."}
+            author={"Breanna Laws"}
+        />
+    </Feature>
     <div class="article-set case anchor-wrapper">
         <span class="anchor" id="nine-times"></span>
         <ArticleSet
@@ -496,6 +456,13 @@
             imgSize={225}
         />
     </div>
+    <Feature img={"https://source.unsplash.com/random"}>
+        <Article slot="text"
+            headline={"How we talk about suicide online matters"}
+            author={"Ethan Bakogiannis and Jameson Wolf"}
+            label={"COLUMN"}
+        />
+    </Feature>
     <div class="article-set case anchor-wrapper">
         <span class="anchor" id="the-seahawk"></span>
         <ArticleSet
@@ -528,7 +495,7 @@
         <span class="anchor" id="technician"></span>
         <ArticleSet
             sizePct={70}
-            articleData={aAndTRegisterStories}
+            articleData={technicianStories}
             sideCar={false}
             headerImg={"mastheads/technician-masthead.png"}
             imgSize={175}
@@ -544,16 +511,6 @@
             imgSize={200}
         />
     </div>
-
-    <div class="case">
-        <Feature
-            invertColors={false}
-            img={"https://source.unsplash.com/random"}
-            headline={"Youth on the UNC men's lacrosse team show promise in weekend games against Princeton and Penn"}
-            summary={"Heading into the general election, the mood in Trump world is buoyant."}
-            author={"Leo Davidson"}
-        />
-    </div>
 </main>
 <footer>
     <div class="footer-wrapper">
@@ -561,23 +518,23 @@
         <section class="footer-grid">
             <p>
                 <b>Mental Health Resources</b><br />
-                Call or text 988 or chat online if you’re thinking about suicide, are
-                worried about a friend or need emotional support. Text START to the Crisis
-                Text Line at 741-741
+                Call or text 988 or chat online if you’re thinking about suicide,
+                are worried about a friend or need emotional support. Text START
+                to the Crisis Text Line at 741-741
             </p>
             <p>
                 <b>Credits</b><br />
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
-                ipsa quo sint ullam itaque veritatis eos omnis delectus voluptate aperiam
-                sapiente accusantium provident illum sequi, sunt corrupti doloremque
-                ratione cum.
+                ipsa quo sint ullam itaque veritatis eos omnis delectus voluptate
+                aperiam sapiente accusantium provident illum sequi, sunt corrupti
+                doloremque ratione cum.
             </p>
             <p>
                 <b>Credits</b><br />
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
-                ipsa quo sint ullam itaque veritatis eos omnis delectus voluptate aperiam
-                sapiente accusantium provident illum sequi, sunt corrupti doloremque
-                ratione cum.
+                ipsa quo sint ullam itaque veritatis eos omnis delectus voluptate
+                aperiam sapiente accusantium provident illum sequi, sunt corrupti
+                doloremque ratione cum.
             </p>
         </section>
     </div>
