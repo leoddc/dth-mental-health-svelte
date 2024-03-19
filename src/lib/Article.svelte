@@ -94,6 +94,7 @@
     img {
         width: 100%;
         aspect-ratio: 3/2;
+        object-fit: cover;
     }
     h3 {
         line-height: 1.27273em;

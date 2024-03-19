@@ -84,7 +84,7 @@
             header: "Op-ed: It's time to replace the word 'stigma' with 'sanism'",
             text: "",
             author: "Krista Savage-White",
-            img: "https://source.unsplash.com/random/300x200",
+            img: "images/dth-default.png",
         },
         {
             header: "Community members find mental health relief in spirituality",
@@ -102,7 +102,7 @@
             header: "Op-ed: Make space to help those struggling with their mental health",
             text: "Content warning: This op-ed contains mention of suicide.",
             author: "Lior Vered-Langley",
-            img: "https://source.unsplash.com/random/300x200",
+            img: "images/dth-default.png",
         },
         {
             header: "IN PROGRESS",
@@ -156,7 +156,7 @@
             header: "Op-ed: UNC’s win-at-all-cost attitude jeopardizes the safety of athletes",
             text: "",
             author: "Samuel Long and Olivia Gschwind",
-            img: "https://source.unsplash.com/random/300x200",
+            img: "images/dth-default.png",
         },
         {
             header: "NO TITLE",
@@ -170,17 +170,17 @@
         {
             header: "Phoenix Free: Sobriety on campus",
             author: "Avery Sloan",
-            img: "https://source.unsplash.com/random/300x200",
+            img: "images/phoenixfree.png",
         },
         {
             header: "College culture’s influence on eating disorders",
             author: "Nia Bedard",
-            img: "https://source.unsplash.com/random/300x200",
+            img: "images/EatingDisorders.jpg",
         },
         {
             header: "HealthEU moves toward new wellness center",
             author: "Lilly Molina",
-            img: "https://source.unsplash.com/random/300x200",
+            img: "images/healthEU.JPG",
         },
     ];
 
@@ -188,17 +188,17 @@
         {
             header: "If You’re Reading This: Student-led mental health resource offers fresh perspectives",
             author: "Aaron Nataline",
-            img: "https://source.unsplash.com/random/300x200",
+            img: "images/ogb-harris-ifyourereadingthis-feature.jpg",
         },
         {
             header: "The UCC’s journey from pandemic pitfalls and back",
             author: "Breanna Laws",
-            img: "https://source.unsplash.com/random/300x200",
+            img: "images/ogb-CC-mh-2.jpg",
         },
         {
             header: "How Wake Forest trains its faculty to be on the frontline of mental health care",
             author: "Christa Dutton",
-            img: "https://source.unsplash.com/random/300x200",
+            img: "images/how-train.jpg",
         },
     ];
 
@@ -211,7 +211,7 @@
         {
             header: "Partnership between AthleteTalk and Charlotte Athletics is helping student-athletes grow mental health literacy",
             author: "Bryson Foster ",
-            img: "https://source.unsplash.com/random/300x200",
+            img: "images/niner-times-sports-student-athlete-mental-health-graphic.jpg",
         }
     ];
 
@@ -219,7 +219,7 @@
         {
             header: "Community, Isolation and Politics: The Mental Health of Queer Students at UNCW",
             author: "Hannah Markov",
-            img: "https://source.unsplash.com/random/300x200",
+            img: "images/sh-ph.jpeg",
         },
     ];
 
@@ -240,12 +240,12 @@
         {
             header: "The state of mental health at N.C. A&T and where it can improve",
             author: "Rosegalie Cineus and Kaila Collier",
-            img: "https://source.unsplash.com/random/300x200",
+            img: "images/aandt-mentalphealth.jpg",
         },
         {
             header: "HBCUs Grapple with Tuition Increases and Student Mental Health",
             author: "Dasia Williams",
-            img: "https://source.unsplash.com/random/300x200",
+            img: "images/ncat-services.png",
         }
     ];
 
@@ -253,7 +253,7 @@
         {
             header: "Duke researchers work on mental wellbeing studies exploring how we think, feel and socialize.",
             author: "?",
-            img: "https://source.unsplash.com/random/300x200",
+            img: "images/duke-medical-school-stock.jpg",
         }
     ];
 
@@ -261,12 +261,12 @@
         {
             header: "Campus community uses AI to address mental health",
             author: "Ethan Bakogiannis and Jameson Wolf",
-            img: "https://source.unsplash.com/random/300x200",
+            img: "images/tech-stem-graphic.PNG",
         },
         {
             header: "How we talk about suicide online matters",
             author: "Kate Denning",
-            img: "https://source.unsplash.com/random/300x200",
+            img: "images/tech-how-we-talk.png",
         }
     ];
 </script>
@@ -385,7 +385,7 @@
         </TextColumns>
     </div>
     <hr>
-    <Feature img={"https://source.unsplash.com/random"}>
+    <Feature img={"images/university-well-being-checks-days.png"}>
         <Article slot="text"
             headline={"Students and faculty reflect on university well-being days across North Carolina"}
             author={"Alli Pardue"}
@@ -438,7 +438,7 @@
         />
     </div>
     <hr>
-    <Feature img={"https://source.unsplash.com/random"}>
+    <Feature img={"images/ogb-CC-mh-2.jpg"}>
         <Article slot="text"
             headline={"The UCC’s journey from pandemic pitfalls and back"}
             summary={"The UCC struggled to meet demand during the pandemic. Now, the center boasts high student satisfaction rates."}
@@ -457,7 +457,7 @@
         />
     </div>
     <hr>
-    <Feature img={"https://source.unsplash.com/random"}>
+    <Feature img={"images/tech-how-we-talk.png"}>
         <Article slot="text"
             headline={"How we talk about suicide online matters"}
             author={"Ethan Bakogiannis and Jameson Wolf"}
