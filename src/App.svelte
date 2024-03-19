@@ -392,6 +392,7 @@
             </span>
         </TextColumns>
     </div>
+    <hr>
     <Feature img={"https://source.unsplash.com/random"}>
         <Article slot="text"
             headline={"Students and faculty reflect on university well-being days across North Carolina"}
@@ -399,6 +400,7 @@
             summary={"Content Warning: This article contains mention of suicide."}
         />
     </Feature>
+    <hr>
     <div class="carousel-container article-set case anchor-wrapper">
         <span class="anchor" id="the-daily-tar-heel"></span>
         <ArticleCase
@@ -406,6 +408,7 @@
             articleData={theDailyTarHeelStories}
         />
     </div>
+    <hr>
     <Feature img={"https://source.unsplash.com/random"}>
         <Article slot="text"
             headline={"How two flagship North Carolina universities responded after several student deaths"}
@@ -413,6 +416,7 @@
             summary={"Content Warning: This article contains mention of suicide."}
         />
     </Feature>
+    <hr>
     <div class="article-set case anchor-wrapper">
         <span class="anchor" id="the-pendulum"></span>
         <ArticleSet
@@ -423,12 +427,14 @@
             imgSize={200}
         />
     </div>
+    <hr>
     <Feature img={"https://source.unsplash.com/random"}>
         <Article slot="text"
             headline={"How UNC Charlotte’s student support organizations help international students with off-campus housing challenges"}
             author={"Sunnya Hadavi and AJ Siegel"}
         />
     </Feature>
+    <hr>
     <div class="article-set case anchor-wrapper">
         <span class="anchor" id="old-gold-and-black"></span>
         <ArticleSet
@@ -439,6 +445,7 @@
             imgSize={275}
         />
     </div>
+    <hr>
     <Feature img={"https://source.unsplash.com/random"}>
         <Article slot="text"
             headline={"The UCC’s journey from pandemic pitfalls and back"}
@@ -446,6 +453,7 @@
             author={"Breanna Laws"}
         />
     </Feature>
+    <hr>
     <div class="article-set case anchor-wrapper">
         <span class="anchor" id="nine-times"></span>
         <ArticleSet
@@ -456,6 +464,7 @@
             imgSize={225}
         />
     </div>
+    <hr>
     <Feature img={"https://source.unsplash.com/random"}>
         <Article slot="text"
             headline={"How we talk about suicide online matters"}
@@ -463,6 +472,7 @@
             label={"COLUMN"}
         />
     </Feature>
+    <hr>
     <div class="article-set case anchor-wrapper">
         <span class="anchor" id="the-seahawk"></span>
         <ArticleSet
@@ -472,6 +482,7 @@
             headerImg={"mastheads/seahawk-masthead.png"}
         />
     </div>
+    <hr>
     <div class="article-set case anchor-wrapper">
         <span class="anchor" id="the-east-carolinian"></span>
         <ArticleSet
@@ -481,6 +492,7 @@
             headerImg={"mastheads/tec-masthead.png"}
         />
     </div>
+    <hr>
     <div class="article-set case anchor-wrapper">
         <span class="anchor" id="a-and-t-register"></span>
         <ArticleSet
@@ -491,6 +503,7 @@
             imgSize={175}
         />
     </div>
+    <hr>
     <div class="article-set case anchor-wrapper">
         <span class="anchor" id="technician"></span>
         <ArticleSet
@@ -501,6 +514,7 @@
             imgSize={175}
         />
     </div>
+    <hr>
     <div class="article-set case anchor-wrapper">
         <span class="anchor" id="the-chronicle"></span>
         <ArticleSet
@@ -544,6 +558,11 @@
     main {
         margin: auto;
         width: 90%;
+    }
+
+    hr {
+        border: #e4e3e3 solid 1px;
+        width: 75%;
     }
 
     footer {
@@ -611,7 +630,6 @@
     }
     .carousel-container {
         width: 100%;
-        margin: auto;
     }
 
     .article-set {

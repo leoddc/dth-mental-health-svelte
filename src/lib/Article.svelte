@@ -89,12 +89,12 @@
     .article {
         display: flex;
         max-width: 400px;
+        min-width: 300px;
         margin: 10px auto;
     }
     img {
         width: 100%;
         aspect-ratio: 3/2;
-        object-fit: cover;
     }
     h3 {
         line-height: 1.27273em;
