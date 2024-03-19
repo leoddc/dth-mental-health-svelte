@@ -67,12 +67,14 @@
             text: "Includes increase in Medicaid reimbursement rates, expanding justice system programs",
             author: "Lucy Marques",
             img: "images/Dth-city-politics-of-mental-funding-state.jpeg",
+            url: "https://www.dailytarheel.com/article/2024/02/dth-city-politics-of-mental-funding-state-legislators-general-assembly-medicaid-services-workforce"
         },
         {
             header: "'Testament to how seriously the state is taking suicide prevention': State launches mental health lifeline dashboard",
             text: "Dashboard tracks calls made to crisis lifelines, providing transparency on service",
             author: "Lola Oliverio",
             img: "images/Dth-city-ncdhhs-mental-health-dashboard-data.jpg",
+            url: "https://www.dailytarheel.com/article/2024/02/city-child-behavioral-health-dashboard-north-carolina-dhhs"
         },
         {
             header: "How two flagship North Carolina universities responded after several student deaths",
@@ -85,12 +87,14 @@
             text: "",
             author: "Krista Savage-White",
             img: "images/dth-default.png",
+            url: "https://www.dailytarheel.com/article/2024/03/dth-oped-replace-stigma-with-sanism#:~:text=Sanism%20identifies%20how%20attitudes%20surrounding,of%20topics%2C%20political%20or%20not."
         },
         {
             header: "Community members find mental health relief in spirituality",
             text: "",
             author: "Marisa Rosa",
             img: "images/dth-lifestyle-mental-health-spirituality.jpeg",
+            url: "https://www.dailytarheel.com/article/2024/03/dth-lifestyle-mental-health-spirituality"
         },
         {
             header: "Column: Mental health is generational in minority communities. Acknowledge it",
@@ -115,12 +119,13 @@
             text: "",
             author: "Tori Newby and Maddie Policastro",
             img: "images/Dth-city-insurance-coverage-gap-statewide-solution.jpeg",
+            url: "https://www.dailytarheel.com/article/2024/02/dth-city-insurance-coverage-gap-statewide-solution"
         },
         {
             header: "Criminal justice diversion programs redirect, guide individuals",
             text: "",
             author: "Sarah Smiley",
-            img: "https://source.unsplash.com/random/300x200",
+            img: "images/20200208_dth-city-orange-county-diversion-program-solutions.jpeg",
         },
         {
             header: "'It's about the process': Art therapy provides creative outlet as mental health care",
@@ -132,7 +137,7 @@
             header: "The Farm at Penny Lane grows hope through therapy programs",
             text: "",
             author: "Madison Gagnon",
-            img: "https://source.unsplash.com/random/300x200",
+            img: "images/contrib-dth-lifestyle-farm-helping-mental-health-solutions.jpg",
         },
         {
             header: "Health humanities laboratory looks to bridge medical, social sciences",
@@ -145,6 +150,7 @@
             text: "",
             author: "Samantha Nichols",
             img: "images/dth-university-mental-health-cost-breakdown.png",
+            url: "https://www.dailytarheel.com/article/2024/02/dth-university-access-to-mental-health-cost-breakdown"
         },
         {
             header: "Students and faculty reflect on university well-being days across North Carolina",
@@ -157,6 +163,7 @@
             text: "",
             author: "Samuel Long and Olivia Gschwind",
             img: "images/dth-default.png",
+            url: "https://www.dailytarheel.com/article/2024/02/dth-oped-athlete-mental-health-unc-swim-and-dive"
         },
         {
             header: "NO TITLE",
@@ -207,11 +214,13 @@
             header: "How UNC Charlotte’s student support organizations help international students with off-campus housing challenges",
             author: "Sunnya Hadavi and AJ Siegel ",
             img: "https://source.unsplash.com/random/300x200",
+            url: "https://www.ninertimes.com/news/how-unc-charlotte-s-student-support-organizations-help-international-students-with-off-campus-housing-challenges/article_a2aa7ba8-e58b-11ee-bf7d-53ab7eded94a.html"
         },
         {
             header: "Partnership between AthleteTalk and Charlotte Athletics is helping student-athletes grow mental health literacy",
             author: "Bryson Foster ",
             img: "images/niner-times-sports-student-athlete-mental-health-graphic.jpg",
+            url: "https://www.ninertimes.com/news/partnership-between-athletetalk-and-charlotte-athletics-is-helping-student-athletes-grow-mental-health-literacy/article_5b35db4a-e58c-11ee-9a60-ef6e8b54e0a4.html"
         }
     ];
 
@@ -262,11 +271,13 @@
             header: "Campus community uses AI to address mental health",
             author: "Ethan Bakogiannis and Jameson Wolf",
             img: "images/tech-stem-graphic.PNG",
+            url: "https://www.technicianonline.com/campus-community-uses-ai-to-address-mental-health/article_783976b2-e590-11ee-9a4b-7ba3b69aa934.html"
         },
         {
             header: "How we talk about suicide online matters",
             author: "Kate Denning",
             img: "images/tech-how-we-talk.png",
+            url: "https://www.technicianonline.com/opinion-how-we-talk-about-suicide-online-matters/article_5f3104a6-e58f-11ee-8d68-1f50c1a1f39a.html"
         }
     ];
 </script>
