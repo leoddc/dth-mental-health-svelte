@@ -31,4 +31,16 @@
         opacity: 1;
         transform: scale(1.03);
     }
+
+    @media only screen and (max-width: 900px) {
+        .logo-grid {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+
+    @media only screen and (max-width: 600px) {
+        .logo-grid {
+            grid-template-columns: auto;
+        }
+    }
 </style>

@@ -47,28 +47,6 @@
         },
     ];
 
-    const collborativeStories = [
-        {
-            header: "'It’s just crazy': Armando Bacot tearily reminisces on his five years at UNC after senior night win",
-            text: "Heading ito the general election, the mood in Trump world is buoyant.",
-            author: "Juy Goe",
-            img: "https://source.unsplash.com/random/300x200",
-            url: "https://example.com",
-        },
-        {
-            header: "'He’s a dog, he’s a killer, hewrks hard': RJ Davis' rise from New York Gauchos to dominance in the ACC",
-            text: "Heading into the general election, the mood in Trump world is buoyant.",
-            author: "Juy Goe",
-            img: "https://source.unsplash.com/random/300x200",
-        },
-        {
-            header: "'He’s a dog, he’s a killer, heworks hard': RJ Davis' rise from New York Gauchos to dominance in the ACC",
-            text: "Heading int the general election, the mood in Trump world is buoyant.",
-            author: "Juy Goe",
-            img: "https://source.unsplash.com/random/300x200",
-        },
-    ];
-
     const theDailyTarHeelStories = [
         {
             header: "Study examines mental health impact of campus gun-related incidents",
@@ -281,7 +259,7 @@
         {
             header: "Morgan’s Message spreads mental health awareness in student-athletes",
             author: "Kiarra Crayton",
-            img: "https://source.unsplash.com/random/300x200",
+            img: "images/morgan-message.JPG",
         },
     ];
 
@@ -337,7 +315,7 @@
 <div style:background-color={"var(--black)"}>
     <Feature
         invertColors={true}
-        img={"https://source.unsplash.com/random"}
+        img={"images/main-art.png"}
         size={100}
     >
         <h1 slot="text" style:font-size={"40px"}>The Mental Health Edition</h1>
@@ -456,7 +434,7 @@
         />
     </div>
     <hr />
-    <Feature img={"https://source.unsplash.com/random"}>
+    <Feature img={"images/dth–technician-mental-health-public-suicide.jpg"}>
         <Article
             slot="text"
             headline={"How two flagship North Carolina universities responded after several student deaths"}
@@ -477,7 +455,7 @@
         />
     </div>
     <hr />
-    <Feature img={"https://source.unsplash.com/random"}>
+    <Feature img={"images/grad-housing.png"}>
         <Article
             slot="text"
             headline={"How UNC Charlotte’s student support organizations help international students with off-campus housing challenges"}
