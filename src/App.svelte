@@ -301,7 +301,7 @@
         img={"https://source.unsplash.com/random"}
         size={100}
     >
-        <h1 slot="text">The Mental Health Edition</h1>
+        <h1 slot="text" style:font-size={"38px"}>The Mental Health Edition</h1>
     </Feature>
 </div>
 
@@ -315,7 +315,7 @@
         { url: "#the-seahawk", text: "The Seahawk" },
         { url: "#the-east-carolinian", text: "The East Carolinian" },
         { url: "#a-and-t-register", text: "A&T Register" },
-        { url: "#technician", text: "The Technician" },
+        { url: "#technician", text: "Technician" },
         { url: "#the-chronicle", text: "The Chronicle" },
     ]}
 />
@@ -401,6 +401,7 @@
             headline={"Students and faculty reflect on university well-being days across North Carolina"}
             author={"Alli Pardue"}
             summary={"Content Warning: This article contains mention of suicide."}
+            headerSize={28}
         />
     </Feature>
     <hr>
@@ -417,6 +418,7 @@
             headline={"How two flagship North Carolina universities responded after several student deaths"}
             author={"Emmy Martin and Emily Vespa"}
             summary={"Content Warning: This article contains mention of suicide."}
+            headerSize={28}
         />
     </Feature>
     <hr>
@@ -435,6 +437,7 @@
         <Article slot="text"
             headline={"How UNC Charlotte’s student support organizations help international students with off-campus housing challenges"}
             author={"Sunnya Hadavi and AJ Siegel"}
+            headerSize={28}
         />
     </Feature>
     <hr>
@@ -454,6 +457,7 @@
             headline={"The UCC’s journey from pandemic pitfalls and back"}
             summary={"The UCC struggled to meet demand during the pandemic. Now, the center boasts high student satisfaction rates."}
             author={"Breanna Laws"}
+            headerSize={28}
         />
     </Feature>
     <hr>
@@ -473,6 +477,7 @@
             headline={"How we talk about suicide online matters"}
             author={"Ethan Bakogiannis and Jameson Wolf"}
             label={"COLUMN"}
+            headerSize={28}
         />
     </Feature>
     <hr>
@@ -583,6 +588,14 @@
         display: grid;
         grid-template-columns: auto auto auto;
         gap: 20px;
+    }
+
+    .footer-wrapper p {
+        font-family: Arial, sans-serif;
+    }
+
+    .footer-wrapper p b {
+        font-family: Georgia, serif;
     }
 
     .column {
