@@ -251,29 +251,21 @@
 
     const theChronicleStories = [
         {
-            header: "'It’s just crazy': Armando Bacot tearily reminisces on his five years at UNC after senior night win",
-            text: "Headin into the general election, the mood in Trump world is buoyant.",
-            author: "Juy Goe",
+            header: "Duke researchers work on mental wellbeing studies exploring how we think, feel and socialize.",
+            author: "?",
             img: "https://source.unsplash.com/random/300x200",
-        },
-        {
-            header: "'He’s a dog, he’ a killer, he works hard': RJ Davis' rise from New York Gauchos to dominance in the ACC",
-            text: "Heading int the general election, the mood in Trump world is buoyant.",
-            author: "Juy Goe",
-            img: "https://source.unsplash.com/random/300x200",
-        },
-        {
-            header: "'He’s a dog, he’s a killer, he works hard': RJ Davis' rise from New York Gauchos to dominance in the ACC",
-            text: "Heading into the general election, the mood in Trump world is buoyant.",
-            author: "Juy Goe",
-            img: "https://source.unsplash.com/random/300x200",
-        },
+        }
     ];
 
     const technicianStories = [
         {
-            header: "Duke researchers work on mental wellbeing studies exploring how we think, feel and socialize.",
-            author: "?",
+            header: "Campus community uses AI to address mental health",
+            author: "Ethan Bakogiannis and Jameson Wolf",
+            img: "https://source.unsplash.com/random/300x200",
+        },
+        {
+            header: "How we talk about suicide online matters",
+            author: "Kate Denning",
             img: "https://source.unsplash.com/random/300x200",
         }
     ];

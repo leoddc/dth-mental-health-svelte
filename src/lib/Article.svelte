@@ -89,7 +89,6 @@
     .article {
         display: flex;
         max-width: 400px;
-        min-width: 300px;
         margin: 10px auto;
     }
     img {
