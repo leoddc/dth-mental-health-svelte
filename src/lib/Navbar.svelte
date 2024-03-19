@@ -79,14 +79,14 @@
     }
 
     .ul-wrapper::after {
-            content: "";
-            position: absolute;
-            right: 0;
-            bottom: 0;
-            width: 60px;
-            height: 100%;
-            background: linear-gradient(90deg, transparent, var(--white));
-            pointer-events: none;
-            z-index: 999;
-        }
+        content: "";
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 60px;
+        height: 100%;
+        background: linear-gradient(90deg, transparent, var(--white));
+        pointer-events: none;
+        z-index: 999;
+    }
 </style>

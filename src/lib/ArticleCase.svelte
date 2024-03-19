@@ -1,5 +1,5 @@
 <script>
-    import { onMount } from 'svelte';
+    import { onMount } from "svelte";
     import Carousel from "svelte-carousel";
     import Article from "./Article.svelte";
 
@@ -22,10 +22,10 @@
 
     onMount(() => {
         updateCarouselSettings();
-        window.addEventListener('resize', updateCarouselSettings);
+        window.addEventListener("resize", updateCarouselSettings);
 
         return () => {
-            window.removeEventListener('resize', updateCarouselSettings);
+            window.removeEventListener("resize", updateCarouselSettings);
         };
     });
 </script>
@@ -34,10 +34,17 @@
     <h2>{header}</h2>
 {/if}
 {#if headerImg}
-    <img src="{headerImg}" alt="Masthead" width="250" class="masthead">
+    <img src={headerImg} alt="Masthead" width="250" class="masthead" />
 {/if}
 <Carousel {particlesToScroll} {particlesToShow} swiping={false}>
     {#each articleData as { header, text, author, img, url, label }}
-        <Article {img} headline={header} summary={text} author={author} url={url} label={label} />
+        <Article
+            {img}
+            headline={header}
+            summary={text}
+            {author}
+            {url}
+            {label}
+        />
     {/each}
 </Carousel>

@@ -6,6 +6,46 @@
     import ArticleSet from "./lib/ArticleSet.svelte";
     import TextColumns from "./lib/TextColumns.svelte";
     import Navbar from "./lib/Navbar.svelte";
+    import LogoGrid from "./lib/LogoGrid.svelte";
+
+    const logoList = [
+        {
+            img: "public/mastheads/dtc-masthead.png",
+            url: "https://www.dukechronicle.com/",
+        },
+        {
+            img: "public/mastheads/dth-masthead.png",
+            url: "https://www.dailytarheel.com/",
+        },
+        {
+            img: "public/mastheads/nt-masthead.png",
+            url: "https://www.ninertimes.com/",
+        },
+        {
+            img: "public/mastheads/ogb-masthead.png",
+            url: "https://wfuogb.com/",
+        },
+        {
+            img: "public/mastheads/pendulum-masthead.png",
+            url: "https://www.elonnewsnetwork.com/",
+        },
+        {
+            img: "public/mastheads/register-masthead.png",
+            url: "https://ncatregister.com/",
+        },
+        {
+            img: "public/mastheads/seahawk-masthead.png",
+            url: "https://theseahawk.org/",
+        },
+        {
+            img: "public/mastheads/tec-masthead.png",
+            url: "https://www.piratemedia1.com/theeastcarolinian/",
+        },
+        {
+            img: "public/mastheads/technician-masthead.png",
+            url: "https://www.technicianonline.com/",
+        },
+    ];
 
     const collborativeStories = [
         {
@@ -67,14 +107,14 @@
             text: "Includes increase in Medicaid reimbursement rates, expanding justice system programs",
             author: "Lucy Marques",
             img: "images/Dth-city-politics-of-mental-funding-state.jpeg",
-            url: "https://www.dailytarheel.com/article/2024/02/dth-city-politics-of-mental-funding-state-legislators-general-assembly-medicaid-services-workforce"
+            url: "https://www.dailytarheel.com/article/2024/02/dth-city-politics-of-mental-funding-state-legislators-general-assembly-medicaid-services-workforce",
         },
         {
             header: "'Testament to how seriously the state is taking suicide prevention': State launches mental health lifeline dashboard",
             text: "Dashboard tracks calls made to crisis lifelines, providing transparency on service",
             author: "Lola Oliverio",
             img: "images/Dth-city-ncdhhs-mental-health-dashboard-data.jpg",
-            url: "https://www.dailytarheel.com/article/2024/02/city-child-behavioral-health-dashboard-north-carolina-dhhs"
+            url: "https://www.dailytarheel.com/article/2024/02/city-child-behavioral-health-dashboard-north-carolina-dhhs",
         },
         {
             header: "How two flagship North Carolina universities responded after several student deaths",
@@ -87,14 +127,14 @@
             text: "",
             author: "Krista Savage-White",
             img: "images/dth-default.png",
-            url: "https://www.dailytarheel.com/article/2024/03/dth-oped-replace-stigma-with-sanism#:~:text=Sanism%20identifies%20how%20attitudes%20surrounding,of%20topics%2C%20political%20or%20not."
+            url: "https://www.dailytarheel.com/article/2024/03/dth-oped-replace-stigma-with-sanism#:~:text=Sanism%20identifies%20how%20attitudes%20surrounding,of%20topics%2C%20political%20or%20not.",
         },
         {
             header: "Community members find mental health relief in spirituality",
             text: "",
             author: "Marisa Rosa",
             img: "images/dth-lifestyle-mental-health-spirituality.jpeg",
-            url: "https://www.dailytarheel.com/article/2024/03/dth-lifestyle-mental-health-spirituality"
+            url: "https://www.dailytarheel.com/article/2024/03/dth-lifestyle-mental-health-spirituality",
         },
         {
             header: "Column: Mental health is generational in minority communities. Acknowledge it",
@@ -119,7 +159,7 @@
             text: "",
             author: "Tori Newby and Maddie Policastro",
             img: "images/Dth-city-insurance-coverage-gap-statewide-solution.jpeg",
-            url: "https://www.dailytarheel.com/article/2024/02/dth-city-insurance-coverage-gap-statewide-solution"
+            url: "https://www.dailytarheel.com/article/2024/02/dth-city-insurance-coverage-gap-statewide-solution",
         },
         {
             header: "Criminal justice diversion programs redirect, guide individuals",
@@ -150,7 +190,7 @@
             text: "",
             author: "Samantha Nichols",
             img: "images/dth-university-mental-health-cost-breakdown.png",
-            url: "https://www.dailytarheel.com/article/2024/02/dth-university-access-to-mental-health-cost-breakdown"
+            url: "https://www.dailytarheel.com/article/2024/02/dth-university-access-to-mental-health-cost-breakdown",
         },
         {
             header: "Students and faculty reflect on university well-being days across North Carolina",
@@ -163,7 +203,7 @@
             text: "",
             author: "Samuel Long and Olivia Gschwind",
             img: "images/dth-default.png",
-            url: "https://www.dailytarheel.com/article/2024/02/dth-oped-athlete-mental-health-unc-swim-and-dive"
+            url: "https://www.dailytarheel.com/article/2024/02/dth-oped-athlete-mental-health-unc-swim-and-dive",
         },
         {
             header: "NO TITLE",
@@ -214,14 +254,14 @@
             header: "How UNC Charlotte’s student support organizations help international students with off-campus housing challenges",
             author: "Sunnya Hadavi and AJ Siegel ",
             img: "https://source.unsplash.com/random/300x200",
-            url: "https://www.ninertimes.com/news/how-unc-charlotte-s-student-support-organizations-help-international-students-with-off-campus-housing-challenges/article_a2aa7ba8-e58b-11ee-bf7d-53ab7eded94a.html"
+            url: "https://www.ninertimes.com/news/how-unc-charlotte-s-student-support-organizations-help-international-students-with-off-campus-housing-challenges/article_a2aa7ba8-e58b-11ee-bf7d-53ab7eded94a.html",
         },
         {
             header: "Partnership between AthleteTalk and Charlotte Athletics is helping student-athletes grow mental health literacy",
             author: "Bryson Foster ",
             img: "images/niner-times-sports-student-athlete-mental-health-graphic.jpg",
-            url: "https://www.ninertimes.com/news/partnership-between-athletetalk-and-charlotte-athletics-is-helping-student-athletes-grow-mental-health-literacy/article_5b35db4a-e58c-11ee-9a60-ef6e8b54e0a4.html"
-        }
+            url: "https://www.ninertimes.com/news/partnership-between-athletetalk-and-charlotte-athletics-is-helping-student-athletes-grow-mental-health-literacy/article_5b35db4a-e58c-11ee-9a60-ef6e8b54e0a4.html",
+        },
     ];
 
     const theSeahawkStories = [
@@ -242,7 +282,7 @@
             header: "Morgan’s Message spreads mental health awareness in student-athletes",
             author: "Kiarra Crayton",
             img: "https://source.unsplash.com/random/300x200",
-        }
+        },
     ];
 
     const aAndTRegisterStories = [
@@ -255,7 +295,7 @@
             header: "HBCUs Grapple with Tuition Increases and Student Mental Health",
             author: "Dasia Williams",
             img: "images/ncat-services.png",
-        }
+        },
     ];
 
     const theChronicleStories = [
@@ -263,7 +303,7 @@
             header: "Duke researchers work on mental wellbeing studies exploring how we think, feel and socialize.",
             author: "?",
             img: "images/duke-medical-school-stock.jpg",
-        }
+        },
     ];
 
     const technicianStories = [
@@ -271,14 +311,14 @@
             header: "Campus community uses AI to address mental health",
             author: "Ethan Bakogiannis and Jameson Wolf",
             img: "images/tech-stem-graphic.PNG",
-            url: "https://www.technicianonline.com/campus-community-uses-ai-to-address-mental-health/article_783976b2-e590-11ee-9a4b-7ba3b69aa934.html"
+            url: "https://www.technicianonline.com/campus-community-uses-ai-to-address-mental-health/article_783976b2-e590-11ee-9a4b-7ba3b69aa934.html",
         },
         {
             header: "How we talk about suicide online matters",
             author: "Kate Denning",
             img: "images/tech-how-we-talk.png",
-            url: "https://www.technicianonline.com/opinion-how-we-talk-about-suicide-online-matters/article_5f3104a6-e58f-11ee-8d68-1f50c1a1f39a.html"
-        }
+            url: "https://www.technicianonline.com/opinion-how-we-talk-about-suicide-online-matters/article_5f3104a6-e58f-11ee-8d68-1f50c1a1f39a.html",
+        },
     ];
 </script>
 
@@ -296,12 +336,11 @@
 
 <div style:background-color={"var(--black)"}>
     <Feature
-        headerSize={40}
         invertColors={true}
         img={"https://source.unsplash.com/random"}
         size={100}
     >
-        <h1 slot="text" style:font-size={"38px"}>The Mental Health Edition</h1>
+        <h1 slot="text" style:font-size={"40px"}>The Mental Health Edition</h1>
     </Feature>
 </div>
 
@@ -395,16 +434,20 @@
             </span>
         </TextColumns>
     </div>
-    <hr>
+    <div style="margin: 40px auto; width: fit-content;">
+        <LogoGrid {logoList} />
+    </div>
+    <hr />
     <Feature img={"images/university-well-being-checks-days.png"}>
-        <Article slot="text"
+        <Article
+            slot="text"
             headline={"Students and faculty reflect on university well-being days across North Carolina"}
             author={"Alli Pardue"}
             summary={"Content Warning: This article contains mention of suicide."}
             headerSize={28}
         />
     </Feature>
-    <hr>
+    <hr />
     <div class="carousel-container article-set case anchor-wrapper">
         <span class="anchor" id="the-daily-tar-heel"></span>
         <ArticleCase
@@ -412,16 +455,17 @@
             articleData={theDailyTarHeelStories}
         />
     </div>
-    <hr>
+    <hr />
     <Feature img={"https://source.unsplash.com/random"}>
-        <Article slot="text"
+        <Article
+            slot="text"
             headline={"How two flagship North Carolina universities responded after several student deaths"}
             author={"Emmy Martin and Emily Vespa"}
             summary={"Content Warning: This article contains mention of suicide."}
             headerSize={28}
         />
     </Feature>
-    <hr>
+    <hr />
     <div class="article-set case anchor-wrapper">
         <span class="anchor" id="the-pendulum"></span>
         <ArticleSet
@@ -432,15 +476,16 @@
             imgSize={200}
         />
     </div>
-    <hr>
+    <hr />
     <Feature img={"https://source.unsplash.com/random"}>
-        <Article slot="text"
+        <Article
+            slot="text"
             headline={"How UNC Charlotte’s student support organizations help international students with off-campus housing challenges"}
             author={"Sunnya Hadavi and AJ Siegel"}
             headerSize={28}
         />
     </Feature>
-    <hr>
+    <hr />
     <div class="article-set case anchor-wrapper">
         <span class="anchor" id="old-gold-and-black"></span>
         <ArticleSet
@@ -451,16 +496,17 @@
             imgSize={275}
         />
     </div>
-    <hr>
+    <hr />
     <Feature img={"images/ogb-CC-mh-2.jpg"}>
-        <Article slot="text"
+        <Article
+            slot="text"
             headline={"The UCC’s journey from pandemic pitfalls and back"}
             summary={"The UCC struggled to meet demand during the pandemic. Now, the center boasts high student satisfaction rates."}
             author={"Breanna Laws"}
             headerSize={28}
         />
     </Feature>
-    <hr>
+    <hr />
     <div class="article-set case anchor-wrapper">
         <span class="anchor" id="nine-times"></span>
         <ArticleSet
@@ -471,16 +517,17 @@
             imgSize={225}
         />
     </div>
-    <hr>
+    <hr />
     <Feature img={"images/tech-how-we-talk.png"}>
-        <Article slot="text"
+        <Article
+            slot="text"
             headline={"How we talk about suicide online matters"}
             author={"Ethan Bakogiannis and Jameson Wolf"}
             label={"COLUMN"}
             headerSize={28}
         />
     </Feature>
-    <hr>
+    <hr />
     <div class="article-set case anchor-wrapper">
         <span class="anchor" id="the-seahawk"></span>
         <ArticleSet
@@ -490,7 +537,7 @@
             headerImg={"mastheads/seahawk-masthead.png"}
         />
     </div>
-    <hr>
+    <hr />
     <div class="article-set case anchor-wrapper">
         <span class="anchor" id="the-east-carolinian"></span>
         <ArticleSet
@@ -500,7 +547,7 @@
             headerImg={"mastheads/tec-masthead.png"}
         />
     </div>
-    <hr>
+    <hr />
     <div class="article-set case anchor-wrapper">
         <span class="anchor" id="a-and-t-register"></span>
         <ArticleSet
@@ -511,7 +558,7 @@
             imgSize={175}
         />
     </div>
-    <hr>
+    <hr />
     <div class="article-set case anchor-wrapper">
         <span class="anchor" id="technician"></span>
         <ArticleSet
@@ -522,7 +569,7 @@
             imgSize={175}
         />
     </div>
-    <hr>
+    <hr />
     <div class="article-set case anchor-wrapper">
         <span class="anchor" id="the-chronicle"></span>
         <ArticleSet

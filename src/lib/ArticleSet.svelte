@@ -14,19 +14,22 @@
     <h2>{header}</h2>
 {/if}
 {#if headerImg}
-    <img src="{headerImg}" alt="Masthead" width="{imgSize}" class="masthead">
+    <img src={headerImg} alt="Masthead" width={imgSize} class="masthead" />
 {/if}
-<div class="grid-container" style="width: {sizePct}%; grid-template-columns: repeat({articleData.length}, 1fr);">
+<div
+    class="grid-container"
+    style="width: {sizePct}%; grid-template-columns: repeat({articleData.length}, 1fr);"
+>
     {#each articleData as { header, text, author, img, url, label }}
         <Article
             {img}
             headline={header}
             summary={text}
-            author={author}
-            sideCar={sideCar}
-            invertColors={invertColors}
-            url={url}
-            label={label}
+            {author}
+            {sideCar}
+            {invertColors}
+            {url}
+            {label}
         />
     {/each}
 </div>
