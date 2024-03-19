@@ -19,8 +19,11 @@
         width: 200px;
         filter: grayscale(1);
         opacity: 0.7;
+        transition: 750ms ease-in-out;
+    }
+
+    a {
         align-self: center;
-        transition: 750ms;
     }
 
     img:hover {

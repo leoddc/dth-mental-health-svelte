@@ -76,9 +76,7 @@
         text-transform: uppercase;
         color: #cc2626;
     }
-    .text-wrapper {
-        /* margin: 0 10px; */
-    }
+
     .wrapper {
         outline-offset: 5px;
         margin: 5px 10px;
