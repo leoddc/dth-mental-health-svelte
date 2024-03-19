@@ -10,39 +10,39 @@
 
     const logoList = [
         {
-            img: "public/mastheads/dtc-masthead.png",
+            img: "mastheads/dtc-masthead.png",
             url: "https://www.dukechronicle.com/",
         },
         {
-            img: "public/mastheads/dth-masthead.png",
+            img: "mastheads/dth-masthead.png",
             url: "https://www.dailytarheel.com/",
         },
         {
-            img: "public/mastheads/nt-masthead.png",
+            img: "mastheads/nt-masthead.png",
             url: "https://www.ninertimes.com/",
         },
         {
-            img: "public/mastheads/ogb-masthead.png",
+            img: "mastheads/ogb-masthead.png",
             url: "https://wfuogb.com/",
         },
         {
-            img: "public/mastheads/pendulum-masthead.png",
+            img: "mastheads/pendulum-masthead.png",
             url: "https://www.elonnewsnetwork.com/",
         },
         {
-            img: "public/mastheads/register-masthead.png",
+            img: "mastheads/register-masthead.png",
             url: "https://ncatregister.com/",
         },
         {
-            img: "public/mastheads/seahawk-masthead.png",
+            img: "mastheads/seahawk-masthead.png",
             url: "https://theseahawk.org/",
         },
         {
-            img: "public/mastheads/tec-masthead.png",
+            img: "mastheads/tec-masthead.png",
             url: "https://www.piratemedia1.com/theeastcarolinian/",
         },
         {
-            img: "public/mastheads/technician-masthead.png",
+            img: "mastheads/technician-masthead.png",
             url: "https://www.technicianonline.com/",
         },
     ];
