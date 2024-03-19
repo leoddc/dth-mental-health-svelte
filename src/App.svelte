@@ -301,7 +301,7 @@
     const theChronicleStories = [
         {
             header: "Duke researchers work on mental wellbeing studies exploring how we think, feel and socialize.",
-            author: "?",
+            author: "Winston Qian",
             img: "images/duke-medical-school-stock.jpg",
         },
     ];
