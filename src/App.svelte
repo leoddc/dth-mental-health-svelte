@@ -54,37 +54,42 @@
             author: "Lucy Kraus",
             img: "images/dth-university-post-shooting-mental-health.png",
             url: "https://example.com",
-            label: "label",
+            label: "unviersity",
         },
         {
             header: "UNC students of color find mental health support through community",
             text: "Mental health resources, student organizations build communities for students of color",
             author: "Hamsini Sivakumar and Daneen Khan",
             img: "images/20240201-gao-Dth-university-lifestyle-mental-health-experience-as-poc-at-pwi.jpg",
+            label: "lifestyle"
         },
         {
             header: "'It's OK to ask for assistance': how UNC's elite athletes use mental health as an edge",
             text: "Sports across UNC use mental health resources, ask for help when needed",
             author: "Shelby Swanson",
             img: "images/Dth-sports-feature-rucker-mental-health.jpeg",
+            label: "sports"
         },
         {
             header: "LGBTQ+ support groups provide community care for substance abuse",
             text: "LGBTQ+ individuals more likely to have serious mental illness, intersectional care provides support",
             author: "Eliza Benbow",
             img: "images/Diehl_lifestyle-queer-substance-abuse-solutions.jpeg",
+            label: "lifestyle"
         },
         {
             header: "Culture-responsive care addresses mental health disparities in tribal communities",
             text: "Culturally relevant practices look at cultural stressors, increasing accessibility of care",
             author: "Kaitlyn Church",
             img: "images/20240205_TRAN-lifestyle-indigenous-mental-health-resources-2.jpg",
+            label: "lifestyle"
         },
         {
             header: "'Could have been doing this all along': State budget invests in mental health resources",
             text: "Includes increase in Medicaid reimbursement rates, expanding justice system programs",
             author: "Lucy Marques",
             img: "images/Dth-city-politics-of-mental-funding-state.jpeg",
+            label: "city",
             url: "https://www.dailytarheel.com/article/2024/02/dth-city-politics-of-mental-funding-state-legislators-general-assembly-medicaid-services-workforce",
         },
         {
@@ -92,6 +97,7 @@
             text: "Dashboard tracks calls made to crisis lifelines, providing transparency on service",
             author: "Lola Oliverio",
             img: "images/Dth-city-ncdhhs-mental-health-dashboard-data.jpg",
+            label: "city",
             url: "https://www.dailytarheel.com/article/2024/02/city-child-behavioral-health-dashboard-north-carolina-dhhs",
         },
         {
@@ -99,12 +105,14 @@
             text: "Content warning: This article contains mentions of suicide and death.",
             author: "Emmy Martin and Emily Vespa",
             img: "images/dth–technician-mental-health-public-suicide.jpg",
+            label: "collaboration"
         },
         {
             header: "Op-ed: It's time to replace the word 'stigma' with 'sanism'",
             text: "",
             author: "Krista Savage-White",
             img: "images/dth-default.png",
+            label: "opinion",
             url: "https://www.dailytarheel.com/article/2024/03/dth-oped-replace-stigma-with-sanism#:~:text=Sanism%20identifies%20how%20attitudes%20surrounding,of%20topics%2C%20political%20or%20not.",
         },
         {
@@ -112,6 +120,7 @@
             text: "",
             author: "Marisa Rosa",
             img: "images/dth-lifestyle-mental-health-spirituality.jpeg",
+            label: "lifestyle",
             url: "https://www.dailytarheel.com/article/2024/03/dth-lifestyle-mental-health-spirituality",
         },
         {
@@ -119,24 +128,28 @@
             text: "",
             author: "Ankur Mutyala",
             img: "images/dth-opinion-generational-mental-health.jpeg",
+            label: "opinion"
         },
         {
             header: "Op-ed: Make space to help those struggling with their mental health",
             text: "Content warning: This op-ed contains mention of suicide.",
             author: "Lior Vered-Langley",
             img: "images/dth-default.png",
+            label: "opinion"
         },
         {
-            header: "IN PROGRESS",
+            header: "IN PROGRESS: calling-out-elected-officials",
             text: "",
             author: "",
             img: "images/calling-out-elected-officials.jpg",
+            label: "opinion"
         },
         {
             header: "Mental health providers, patients face inconsistencies in insurance coverage",
             text: "",
             author: "Tori Newby and Maddie Policastro",
             img: "images/Dth-city-insurance-coverage-gap-statewide-solution.jpeg",
+            label: "city",
             url: "https://www.dailytarheel.com/article/2024/02/dth-city-insurance-coverage-gap-statewide-solution",
         },
         {
@@ -144,30 +157,35 @@
             text: "",
             author: "Sarah Smiley",
             img: "images/20200208_dth-city-orange-county-diversion-program-solutions.jpeg",
+            label: "city"
         },
         {
             header: "'It's about the process': Art therapy provides creative outlet as mental health care",
             text: "",
             author: "Mila Mascenik and Sophia Melin",
-            img: "https://source.unsplash.com/random/300x200",
+            img: "images/Dth-lifestyle-alternative-forms-of-therapy-in-arts.jpeg",
+            label: "lifestyle"
         },
         {
             header: "The Farm at Penny Lane grows hope through therapy programs",
             text: "",
             author: "Madison Gagnon",
             img: "images/contrib-dth-lifestyle-farm-helping-mental-health-solutions.jpg",
+            label: "lifestyle"
         },
         {
             header: "Health humanities laboratory looks to bridge medical, social sciences",
             text: "",
             author: "Charlene Wu",
             img: "images/Dth-lifestyle-health-humanities-mental-health-creative-solutions.jpeg",
+            label: "lifestyle"
         },
         {
             header: "'Therapy should be affordable to everyone': CAPS addresses financial burdens of therapy",
             text: "",
             author: "Samantha Nichols",
             img: "images/dth-university-mental-health-cost-breakdown.png",
+            label: "university",
             url: "https://www.dailytarheel.com/article/2024/02/dth-university-access-to-mental-health-cost-breakdown",
         },
         {
@@ -175,20 +193,16 @@
             text: "Content Warning: This article contains mention of suicide.",
             author: "Alli Pardue",
             img: "images/university-well-being-checks-days.png",
+            label: "university"
         },
         {
             header: "Op-ed: UNC’s win-at-all-cost attitude jeopardizes the safety of athletes",
             text: "",
             author: "Samuel Long and Olivia Gschwind",
             img: "images/dth-default.png",
+            label: "opinion",
             url: "https://www.dailytarheel.com/article/2024/02/dth-oped-athlete-mental-health-unc-swim-and-dive",
-        },
-        {
-            header: "NO TITLE",
-            text: "",
-            author: "NO AUTHOR",
-            img: "images/Dth-lifestyle-alternative-forms-of-therapy-in-arts.jpeg",
-        },
+        }
     ];
 
     const thePendulumStories = [
@@ -254,7 +268,7 @@
         {
             header: "The community building within ECU",
             author: "Kiarra Crayton",
-            img: "https://source.unsplash.com/random/300x200",
+            img: "images/team.jpg",
         },
         {
             header: "Morgan’s Message spreads mental health awareness in student-athletes",
@@ -313,11 +327,7 @@
  -->
 
 <div style:background-color={"var(--black)"}>
-    <Feature
-        invertColors={true}
-        img={"images/main-art.png"}
-        size={100}
-    >
+    <Feature invertColors={true} img={"images/main-art.png"} size={100}>
         <h1 slot="text" style:font-size={"40px"}>The Mental Health Edition</h1>
     </Feature>
 </div>
@@ -416,7 +426,7 @@
         <LogoGrid {logoList} />
     </div>
     <hr />
-    <Feature img={"images/university-well-being-checks-days.png"}>
+    <Feature img={"images/university-well-being-checks-days.png"} textLeft={false}>
         <Article
             slot="text"
             headline={"Students and faculty reflect on university well-being days across North Carolina"}
@@ -455,7 +465,7 @@
         />
     </div>
     <hr />
-    <Feature img={"images/grad-housing.png"}>
+    <Feature img={"images/grad-housing.png"} textLeft={false}>
         <Article
             slot="text"
             headline={"How UNC Charlotte’s student support organizations help international students with off-campus housing challenges"}
@@ -496,7 +506,7 @@
         />
     </div>
     <hr />
-    <Feature img={"images/tech-how-we-talk.png"}>
+    <Feature img={"images/tech-how-we-talk.png"} textLeft={false}>
         <Article
             slot="text"
             headline={"How we talk about suicide online matters"}
@@ -667,6 +677,12 @@
     @media only screen and (max-width: 900px) {
         .columns {
             width: 80%;
+        }
+    }
+
+    @media only screen and (max-width: 750px) {
+        .footer-grid {
+            grid-template-columns: auto;
         }
     }
     .carousel-container {
