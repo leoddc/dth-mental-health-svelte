@@ -61,28 +61,28 @@
             text: "Mental health resources, student organizations build communities for students of color",
             author: "Hamsini Sivakumar and Daneen Khan",
             img: "images/20240201-gao-Dth-university-lifestyle-mental-health-experience-as-poc-at-pwi.jpg",
-            label: "lifestyle"
+            label: "lifestyle",
         },
         {
             header: "'It's OK to ask for assistance': how UNC's elite athletes use mental health as an edge",
             text: "Sports across UNC use mental health resources, ask for help when needed",
             author: "Shelby Swanson",
             img: "images/Dth-sports-feature-rucker-mental-health.jpeg",
-            label: "sports"
+            label: "sports",
         },
         {
             header: "LGBTQ+ support groups provide community care for substance abuse",
             text: "LGBTQ+ individuals more likely to have serious mental illness, intersectional care provides support",
             author: "Eliza Benbow",
             img: "images/Diehl_lifestyle-queer-substance-abuse-solutions.jpeg",
-            label: "lifestyle"
+            label: "lifestyle",
         },
         {
             header: "Culture-responsive care addresses mental health disparities in tribal communities",
             text: "Culturally relevant practices look at cultural stressors, increasing accessibility of care",
             author: "Kaitlyn Church",
             img: "images/20240205_TRAN-lifestyle-indigenous-mental-health-resources-2.jpg",
-            label: "lifestyle"
+            label: "lifestyle",
         },
         {
             header: "'Could have been doing this all along': State budget invests in mental health resources",
@@ -105,7 +105,7 @@
             text: "Content warning: This article contains mentions of suicide and death.",
             author: "Emmy Martin and Emily Vespa",
             img: "images/dth–technician-mental-health-public-suicide.jpg",
-            label: "collaboration"
+            label: "collaboration",
         },
         {
             header: "Op-ed: It's time to replace the word 'stigma' with 'sanism'",
@@ -128,21 +128,21 @@
             text: "",
             author: "Ankur Mutyala",
             img: "images/dth-opinion-generational-mental-health.jpeg",
-            label: "opinion"
+            label: "opinion",
         },
         {
             header: "Op-ed: Make space to help those struggling with their mental health",
             text: "Content warning: This op-ed contains mention of suicide.",
             author: "Lior Vered-Langley",
             img: "images/dth-default.png",
-            label: "opinion"
+            label: "opinion",
         },
         {
             header: "IN PROGRESS: calling-out-elected-officials",
             text: "",
             author: "",
             img: "images/calling-out-elected-officials.jpg",
-            label: "opinion"
+            label: "opinion",
         },
         {
             header: "Mental health providers, patients face inconsistencies in insurance coverage",
@@ -157,28 +157,28 @@
             text: "",
             author: "Sarah Smiley",
             img: "images/20200208_dth-city-orange-county-diversion-program-solutions.jpeg",
-            label: "city"
+            label: "city",
         },
         {
             header: "'It's about the process': Art therapy provides creative outlet as mental health care",
             text: "",
             author: "Mila Mascenik and Sophia Melin",
             img: "images/Dth-lifestyle-alternative-forms-of-therapy-in-arts.jpeg",
-            label: "lifestyle"
+            label: "lifestyle",
         },
         {
             header: "The Farm at Penny Lane grows hope through therapy programs",
             text: "",
             author: "Madison Gagnon",
             img: "images/contrib-dth-lifestyle-farm-helping-mental-health-solutions.jpg",
-            label: "lifestyle"
+            label: "lifestyle",
         },
         {
             header: "Health humanities laboratory looks to bridge medical, social sciences",
             text: "",
             author: "Charlene Wu",
             img: "images/Dth-lifestyle-health-humanities-mental-health-creative-solutions.jpeg",
-            label: "lifestyle"
+            label: "lifestyle",
         },
         {
             header: "'Therapy should be affordable to everyone': CAPS addresses financial burdens of therapy",
@@ -193,7 +193,7 @@
             text: "Content Warning: This article contains mention of suicide.",
             author: "Alli Pardue",
             img: "images/university-well-being-checks-days.png",
-            label: "university"
+            label: "university",
         },
         {
             header: "Op-ed: UNC’s win-at-all-cost attitude jeopardizes the safety of athletes",
@@ -202,7 +202,7 @@
             img: "images/dth-default.png",
             label: "opinion",
             url: "https://www.dailytarheel.com/article/2024/02/dth-oped-athlete-mental-health-unc-swim-and-dive",
-        }
+        },
     ];
 
     const thePendulumStories = [
@@ -387,7 +387,7 @@
                     shared by those in each of their communities. This Mental
                     Health Collaborative is the result of months of rigorous
                     reporting, research, conversations, writing, editing and
-                    designing. This initiative began in 2023, when The Daily Tar
+                    designing. This initiative began in 2023 when The Daily Tar
                     Heel was awarded a grant from the Solutions Journalism
                     Network as part of its Student Media Challenge initiative.
                     That grant helped fund the collaborative work of this
@@ -399,10 +399,10 @@
                     The Daily Tar Heel is honored to have had the privilege of
                     working with The A&T Register, The Duke Chronicle, The East
                     Carolinian, The Niner Times, The Old Gold & Black, The
-                    Pendulum, The Seahawk and The Technician on this project.
+                    Pendulum, The Seahawk and Technician on this project.
                 </p>
                 <p>
-                    With more than 40 reported stories and seven opinion pieces,
+                    With more than 30 reported stories and seven opinion pieces,
                     we touch on many issues related to mental health, from how
                     Wake Forest University trains its faculty to be on the
                     frontline of mental health care to how international
@@ -426,7 +426,10 @@
         <LogoGrid {logoList} />
     </div>
     <hr />
-    <Feature img={"images/university-well-being-checks-days.png"} textLeft={false}>
+    <Feature
+        img={"images/university-well-being-checks-days.png"}
+        textLeft={false}
+    >
         <Article
             slot="text"
             headline={"Students and faculty reflect on university well-being days across North Carolina"}
