@@ -245,7 +245,7 @@
         {
             header: "How UNC Charlotte’s student support organizations help international students with off-campus housing challenges",
             author: "Sunnya Hadavi and AJ Siegel ",
-            img: "https://source.unsplash.com/random/300x200",
+            img: "images/grad-housing.png",
             url: "https://www.ninertimes.com/news/how-unc-charlotte-s-student-support-organizations-help-international-students-with-off-campus-housing-challenges/article_a2aa7ba8-e58b-11ee-bf7d-53ab7eded94a.html",
         },
         {
