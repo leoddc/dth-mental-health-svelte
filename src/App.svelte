@@ -210,16 +210,19 @@
             header: "Phoenix Free: Sobriety on campus",
             author: "Avery Sloan",
             img: "images/phoenixfree.png",
+            label: "Univeristy"
         },
         {
             header: "College culture’s influence on eating disorders",
             author: "Nia Bedard",
             img: "images/EatingDisorders.jpg",
+            label: "Univeristy"
         },
         {
             header: "HealthEU moves toward new wellness center",
             author: "Lilly Molina",
             img: "images/healthEU.JPG",
+            label: "Univeristy"
         },
     ];
 
@@ -228,16 +231,19 @@
             header: "If You’re Reading This: Student-led mental health resource offers fresh perspectives",
             author: "Aaron Nataline",
             img: "images/ogb-harris-ifyourereadingthis-feature.jpg",
+            label: "University"
         },
         {
             header: "The UCC’s journey from pandemic pitfalls and back",
             author: "Breanna Laws",
             img: "images/ogb-CC-mh-2.jpg",
+            label: "University"
         },
         {
             header: "How Wake Forest trains its faculty to be on the frontline of mental health care",
             author: "Christa Dutton",
             img: "images/how-train.jpg",
+            label: "University"
         },
     ];
 
@@ -247,12 +253,14 @@
             author: "Sunnya Hadavi and AJ Siegel ",
             img: "images/grad-housing.png",
             url: "https://www.ninertimes.com/news/how-unc-charlotte-s-student-support-organizations-help-international-students-with-off-campus-housing-challenges/article_a2aa7ba8-e58b-11ee-bf7d-53ab7eded94a.html",
+            label: "City & State"
         },
         {
             header: "Partnership between AthleteTalk and Charlotte Athletics is helping student-athletes grow mental health literacy",
             author: "Bryson Foster ",
             img: "images/niner-times-sports-student-athlete-mental-health-graphic.jpg",
             url: "https://www.ninertimes.com/news/partnership-between-athletetalk-and-charlotte-athletics-is-helping-student-athletes-grow-mental-health-literacy/article_5b35db4a-e58c-11ee-9a60-ef6e8b54e0a4.html",
+            label: "sports"
         },
     ];
 
@@ -261,6 +269,7 @@
             header: "Community, Isolation and Politics: The Mental Health of Queer Students at UNCW",
             author: "Hannah Markov",
             img: "images/sh-ph.jpeg",
+            label: "University"
         },
     ];
 
@@ -269,11 +278,13 @@
             header: "The community building within ECU",
             author: "Kiarra Crayton",
             img: "images/team.jpg",
+            label: "University"
         },
         {
             header: "Morgan’s Message spreads mental health awareness in student-athletes",
             author: "Kiarra Crayton",
             img: "images/morgan-message.JPG",
+            label: "University"
         },
     ];
 
@@ -282,11 +293,13 @@
             header: "The state of mental health at N.C. A&T and where it can improve",
             author: "Rosegalie Cineus and Kaila Collier",
             img: "images/aandt-mentalphealth.jpg",
+            label: "University"
         },
         {
             header: "HBCUs grapple with tuition increases and student mental health",
             author: "Dasia Williams",
             img: "images/ncat-services.png",
+            label: "University"
         },
     ];
 
@@ -295,6 +308,7 @@
             header: "Duke researchers work on mental wellbeing studies exploring how we think, feel and socialize",
             author: "Winston Qian",
             img: "images/duke-medical-school-stock.jpg",
+            label: "University"
         },
     ];
 
@@ -304,12 +318,14 @@
             author: "Ethan Bakogiannis and Jameson Wolf",
             img: "images/tech-stem-graphic.PNG",
             url: "https://www.technicianonline.com/campus-community-uses-ai-to-address-mental-health/article_783976b2-e590-11ee-9a4b-7ba3b69aa934.html",
+            label: "University"
         },
         {
             header: "How we talk about suicide online matters",
             author: "Kate Denning",
             img: "images/tech-how-we-talk.png",
             url: "https://www.technicianonline.com/opinion-how-we-talk-about-suicide-online-matters/article_5f3104a6-e58f-11ee-8d68-1f50c1a1f39a.html",
+            label: "Opinion"
         },
     ];
 </script>
@@ -328,7 +344,10 @@
 
 <div style:background-color={"var(--black)"}>
     <Feature invertColors={true} img={"images/main-art.png"} size={100}>
-        <h1 slot="text" style:font-size={"40px"}>The Mental Health Edition</h1>
+        <div slot="text">
+            <h1 style:font-size={"40px"}>A statewide issue</h1>
+            <p style:font-size={"1.2em"}>Nine North Carolina college newsrooms partner to cover the mental health crisis faced by their communities</p>
+        </div>
     </Feature>
 </div>
 
