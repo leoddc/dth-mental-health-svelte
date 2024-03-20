@@ -445,18 +445,22 @@
         <LogoGrid {logoList} />
     </div>
     <hr />
-    <Feature
-        img={"images/university-well-being-checks-days.png"}
-        textLeft={false}
-    >
-        <Article
-            slot="text"
-            headline={"Students and faculty reflect on university well-being days across North Carolina"}
-            author={"Alli Pardue"}
-            summary={"Content Warning: This article contains mention of suicide."}
-            headerSize={28}
-        />
-    </Feature>
+    <div style:background-color={"black"}>
+        <Feature
+            img={"images/university-well-being-checks-days.png"}
+            textLeft={false}
+            invertColors={true}
+        >
+            <Article
+                slot="text"
+                headline={"Students and faculty reflect on university well-being days across North Carolina"}
+                author={"Alli Pardue"}
+                summary={"Content Warning: This article contains mention of suicide."}
+                headerSize={28}
+                invertColors={true}
+            />
+        </Feature>
+    </div>
     <hr />
     <div class="carousel-container article-set case anchor-wrapper">
         <span class="anchor" id="the-daily-tar-heel"></span>
@@ -622,7 +626,7 @@
 <style>
     main {
         margin: auto;
-        width: 90%;
+        width: 100%;
     }
 
     hr {
@@ -681,6 +685,7 @@
 
     .case {
         margin: 80px auto;
+        width: 90%;
     }
 
     .byline {
