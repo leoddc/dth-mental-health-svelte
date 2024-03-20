@@ -284,7 +284,7 @@
             img: "images/aandt-mentalphealth.jpg",
         },
         {
-            header: "HBCUs Grapple with Tuition Increases and Student Mental Health",
+            header: "HBCUs grapple with tuition increases and student mental health",
             author: "Dasia Williams",
             img: "images/ncat-services.png",
         },
@@ -292,7 +292,7 @@
 
     const theChronicleStories = [
         {
-            header: "Duke researchers work on mental wellbeing studies exploring how we think, feel and socialize.",
+            header: "Duke researchers work on mental wellbeing studies exploring how we think, feel and socialize",
             author: "Winston Qian",
             img: "images/duke-medical-school-stock.jpg",
         },
@@ -334,7 +334,7 @@
 
 <Navbar
     data={[
-        { url: "#introduction", text: "Introduction" },
+        { url: "#introduction", text: "Welcome" },
         { url: "#the-daily-tar-heel", text: "The Daily Tar Heel" },
         { url: "#the-pendulum", text: "The Pendulum" },
         { url: "#old-gold-and-black", text: "Old Gold & Black" },
@@ -355,7 +355,7 @@
             By <a href="https://www.dailytarheel.com/staff/emmy-martin"
                 >Emmy Martin</a
             ><br /><span class="byline"
-                >Editor in Chief of The Daily Tar Heel</span
+                >Editor-in-Chief of The Daily Tar Heel</span
             >
         </p>
         <TextColumns numberOfCols={2}>
@@ -577,7 +577,7 @@
                 <b>Mental Health Resources</b><br />
                 Call or text 988 or chat online if you’re thinking about suicide,
                 are worried about a friend or need emotional support. Text START
-                to the Crisis Text Line at 741-741
+                to the Crisis Text Line at 741-741.
             </p>
             <p>
                 <b>Credits</b><br />
