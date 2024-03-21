@@ -70,6 +70,13 @@
             url: "https://www.dailytarheel.com/article/2024/03/sports-mental-health-athletes-unc-north-carolina-football-field-hockey-kaimon-rucker"
         },
         {
+            header: "Club and intramural sports foster community, outlet for UNC students",
+            author: "Moira Martin",
+            img: "images/im-sports.jpg",
+            label: "sports",
+            url: "https://www.dailytarheel.com/article/2024/03/club-sports-outlet-mental-health-unc-campus-recreation-justin-ford"
+        },
+        {
             header: "LGBTQ+ support groups provide community care for substance abuse",
             author: "Eliza Benbow",
             img: "images/Diehl_lifestyle-queer-substance-abuse-solutions.jpeg",
@@ -194,6 +201,13 @@
             img: "images/dth-default.png",
             label: "opinion",
             url: "https://www.dailytarheel.com/article/2024/02/dth-oped-athlete-mental-health-unc-swim-and-dive",
+        },
+        {
+            header: "Column: Remission from major depressive disorder is possible",
+            author: "Kennedy Cox",
+            img: "images/dth-default.png",
+            label: "opinion",
+            url: "https://www.dailytarheel.com/article/2024/03/donotpub-dth-opinion-alterntive-mh-treatments",
         },
     ];
 
