@@ -400,7 +400,7 @@
 <main>
     <div class="columns anchor-wrapper">
         <span class="anchor" id="introduction"></span>
-        <h2>Behind the Mental Health Collaborative</h2>
+        <h2>Welcome to the Mental Health Collaborative</h2>
         <p class="author" style:line-height={"19px"}>
             By <a href="https://www.dailytarheel.com/staff/emmy-martin"
                 >Emmy Martin</a
