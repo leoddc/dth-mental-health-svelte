@@ -15,7 +15,7 @@
         let l = label.toLowerCase()
         switch (l) {
             case "university":
-                return "#41AD49";
+                return "#83BFDE";
             case "city & state":
                 return "#41AD49";
             case "sports":
@@ -23,9 +23,9 @@
             case "lifestyle":
                 return "#FB8500";
             case "opinion":
-                return "#6F2DBD";
+                return "#471879";
             case "column":
-                return "#6F2DBD";
+                return "#471879";
             default:
                 return "#cc2626";
         }
@@ -70,7 +70,7 @@
                     style="font-size: {summarySize}px;"
                     style:color={invertColors ? "var(--white)" : "var(--black)"}
                 >
-                    {summary}
+                    {@html summary}
                 </p>
             {/if}
             {#if author}
