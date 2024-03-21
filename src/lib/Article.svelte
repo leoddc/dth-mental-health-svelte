@@ -46,7 +46,7 @@
                 <p class="label" style:color={labelColor(label)}>{label}</p>
             {/if}
             {#if url}
-                <a href={url}>
+                <a href={url} target="_parent">
                     <h3
                         style="font-size: {headerSize}px;"
                         style:color={invertColors

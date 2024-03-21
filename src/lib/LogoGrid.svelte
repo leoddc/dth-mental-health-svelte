@@ -4,7 +4,7 @@
 
 <div class="logo-grid">
     {#each logoList as { img, url }}
-        <a href={url}><img src={img} alt="Masthead" /></a>
+        <a target="_parent" href={url}><img src={img} alt="Masthead" /></a>
     {/each}
 </div>
 
