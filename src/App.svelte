@@ -94,14 +94,14 @@
             header: "'Could have been doing this all along': State budget invests in mental health resources",
             author: "Lucy Marques",
             img: "images/Dth-city-politics-of-mental-funding-state.jpeg",
-            label: "city",
+            label: "city & state",
             url: "https://www.dailytarheel.com/article/2024/02/dth-city-politics-of-mental-funding-state-legislators-general-assembly-medicaid-services-workforce",
         },
         {
             header: "'Testament to how seriously the state is taking suicide prevention': State launches mental health lifeline dashboard",
             author: "Lola Oliverio",
             img: "images/Dth-city-ncdhhs-mental-health-dashboard-data.jpg",
-            label: "city",
+            label: "city & state",
             url: "https://www.dailytarheel.com/article/2024/02/city-child-behavioral-health-dashboard-north-carolina-dhhs",
         },
         {
@@ -150,14 +150,14 @@
             header: "Mental health providers, patients face inconsistencies in insurance coverage",
             author: "Tori Newby and Maddie Policastro",
             img: "images/Dth-city-insurance-coverage-gap-statewide-solution.jpeg",
-            label: "city",
+            label: "city & state",
             url: "https://www.dailytarheel.com/article/2024/02/dth-city-insurance-coverage-gap-statewide-solution",
         },
         {
             header: "Criminal justice diversion programs redirect, guide individuals",
             author: "Sarah Smiley",
             img: "images/20200208_dth-city-orange-county-diversion-program-solutions.jpeg",
-            label: "city",
+            label: "city & state",
             url: "https://www.dailytarheel.com/article/2024/03/dth-city-orange-county-diversion-program-solutions"
         },
         {
@@ -333,14 +333,14 @@
     const technicianStories = [
         {
             header: "Campus community uses AI to address mental health",
-            author: "Ethan Bakogiannis and Jameson Wolf",
+            author: "Kate Denning",
             img: "images/tech-stem-graphic.PNG",
             url: "https://www.technicianonline.com/campus-community-uses-ai-to-address-mental-health/article_783976b2-e590-11ee-9a4b-7ba3b69aa934.html",
             label: "University",
         },
         {
             header: "How we talk about suicide online matters",
-            author: "Kate Denning",
+            author: "Ethan Bakogiannis and Jameson Wolf",
             img: "images/tech-how-we-talk.png",
             url: "https://www.technicianonline.com/opinion-how-we-talk-about-suicide-online-matters/article_5f3104a6-e58f-11ee-8d68-1f50c1a1f39a.html",
             label: "Opinion",
