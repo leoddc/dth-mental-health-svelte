@@ -738,23 +738,24 @@
 <footer>
     <div class="footer-wrapper">
         <section class="footer-grid">
-            <p>
-                <b>Mental Health Resources</b><br />
-                Call or text 988 or chat online if you’re thinking about suicide,
-                are worried about a friend or need emotional support. Text START
-                to the Crisis Text Line at 741-741.
-            </p>
             <div>
                 <p>
-                    Click here to read these stories in The Daily Tar Heel’s Special Edition Mental Health Newspaper
+                    Call or text 988 or chat online if you’re thinking about suicide,
+                    are worried about a friend or need emotional support. Text START
+                    to the Crisis Text Line at 741-741.
                 </p>
+                <p>
+                    Click <a href="https://s3.amazonaws.com/snwceomedia/dth/8746a32b-2c90-4ae1-a559-b346c54cdf7d.original.pdf">here</a> to read these stories in The Daily Tar Heel’s Special Edition Mental Health Newspaper
+                </p>
+            </div>
+            <div>
                 <p>
                     Special thanks to the <a
                         href="https://www.solutionsjournalism.org/"
                         >Solutions Journalism Network</a
                     > for funding this collaborative project.
                 </p>
-                <p>Developed by Leo Davidson<br>Front page designed by Olivia Goodson, Hailey Patterson, Grace Davidson, Erin Martin and Jamie Antinore.</p>
+                <p>Website developed by Leo Davidson.<br>Front page designed by Olivia Goodson, Hailey Patterson, Grace Davidson, Erin Martin and Jamie Antinore.</p>
             </div>
         </section>
     </div>
@@ -791,7 +792,7 @@
     .footer-grid {
         display: grid;
         grid-template-columns: auto auto;
-        gap: 20px;
+        gap: 50px;
     }
 
     .footer-wrapper p {
