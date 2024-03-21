@@ -102,7 +102,7 @@
             author: "Lola Oliverio",
             img: "images/Dth-city-ncdhhs-mental-health-dashboard-data.jpg",
             label: "city & state",
-            url: "https://www.dailytarheel.com/article/2024/02/city-child-behavioral-health-dashboard-north-carolina-dhhs",
+            url: "https://www.dailytarheel.com/article/2024/02/dth-city-north-carolina-department-of-health-human-services-mental-health-dashboard-data",
         },
         {
             header: "How two flagship North Carolina universities responded after several student deaths",
