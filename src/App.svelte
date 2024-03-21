@@ -754,7 +754,7 @@
                         >Solutions Journalism Network</a
                     > for funding this collaborative project.
                 </p>
-                <p>Developed by Leo Davidson</p>
+                <p>Developed by Leo Davidson<br>Front page designed by Olivia Goodson, Hailey Patterson, Grace Davidson, Erin Martin and Jamie Antinore.</p>
             </div>
         </section>
     </div>
