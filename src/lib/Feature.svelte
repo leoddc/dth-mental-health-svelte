@@ -5,6 +5,8 @@
     export let textLeft = true;
     export let invertColors = false;
     export let size = 90;
+    export let imgSize = "75%";
+    export let normalImg = true;
 </script>
 
 <div
@@ -17,9 +19,19 @@
         <div class="text">
             <slot name="text" />
         </div>
-        <img src={img} alt="" />
+        <img
+            src={img}
+            style:width={imgSize}
+            alt=""
+            class={normalImg ? `normal-img` : ""}
+        />
     {:else}
-        <img src={img} alt="" />
+        <img
+            src={img}
+            style:width={imgSize}
+            alt=""
+            class={normalImg ? `normal-img` : ""}
+        />
         <div class="text">
             <slot name="text" />
         </div>
@@ -36,10 +48,15 @@
     }
     .text,
     img {
-        width: 75%;
         margin: auto;
         text-align: center;
     }
+
+    .normal-img {
+        aspect-ratio: 3/2;
+        object-fit: cover;
+    }
+
     @media (max-width: 800px) {
         .container {
             grid-template-columns: 1fr;

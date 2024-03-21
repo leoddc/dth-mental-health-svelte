@@ -9,6 +9,27 @@
     export let invertColors = false;
     export let url = "";
     export let label = "";
+    export let newspaper = "";
+
+    function labelColor(label) {
+        let l = label.toLowerCase()
+        switch (l) {
+            case "university":
+                return "#41AD49";
+            case "city & state":
+                return "#41AD49";
+            case "sports":
+                return "#D2232A";
+            case "lifestyle":
+                return "#FB8500";
+            case "opinion":
+                return "#6F2DBD";
+            case "column":
+                return "#6F2DBD";
+            default:
+                return "#cc2626";
+        }
+    }
 </script>
 
 <div class="article">
@@ -22,7 +43,7 @@
         {/if}
         <div class="text-wrapper">
             {#if label}
-                <p class="label">{label}</p>
+                <p class="label" style:color={labelColor(label)}>{label}</p>
             {/if}
             {#if url}
                 <a href={url}>
@@ -53,7 +74,11 @@
                 </p>
             {/if}
             {#if author}
-                <p class="author">By {author}</p>
+                <p class="author">By {author}
+                    {#if newspaper}
+                        <br>{newspaper}
+                    {/if}
+                </p>
             {/if}
         </div>
     </div>
@@ -74,7 +99,6 @@
         font-weight: 600;
         margin: 0;
         text-transform: uppercase;
-        color: #cc2626;
     }
 
     .wrapper {
@@ -100,7 +124,7 @@
     }
     h3,
     p {
-        margin: 10px 0;
+        margin: 10px 0 0px 0;
     }
     p {
         line-height: 1.41176em;

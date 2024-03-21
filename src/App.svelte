@@ -50,43 +50,37 @@
     const theDailyTarHeelStories = [
         {
             header: "Study examines mental health impact of campus gun-related incidents",
-            text: "Students more likely to have PTSD symptoms after UNC’s two incidents of gun violence",
             author: "Lucy Kraus",
             img: "images/dth-university-post-shooting-mental-health.png",
             url: "https://example.com",
-            label: "unviersity",
+            label: "university",
         },
         {
             header: "UNC students of color find mental health support through community",
-            text: "Mental health resources, student organizations build communities for students of color",
             author: "Hamsini Sivakumar and Daneen Khan",
             img: "images/20240201-gao-Dth-university-lifestyle-mental-health-experience-as-poc-at-pwi.jpg",
             label: "lifestyle",
         },
         {
             header: "'It's OK to ask for assistance': how UNC's elite athletes use mental health as an edge",
-            text: "Sports across UNC use mental health resources, ask for help when needed",
             author: "Shelby Swanson",
             img: "images/Dth-sports-feature-rucker-mental-health.jpeg",
             label: "sports",
         },
         {
             header: "LGBTQ+ support groups provide community care for substance abuse",
-            text: "LGBTQ+ individuals more likely to have serious mental illness, intersectional care provides support",
             author: "Eliza Benbow",
             img: "images/Diehl_lifestyle-queer-substance-abuse-solutions.jpeg",
             label: "lifestyle",
         },
         {
             header: "Culture-responsive care addresses mental health disparities in tribal communities",
-            text: "Culturally relevant practices look at cultural stressors, increasing accessibility of care",
             author: "Kaitlyn Church",
             img: "images/20240205_TRAN-lifestyle-indigenous-mental-health-resources-2.jpg",
             label: "lifestyle",
         },
         {
             header: "'Could have been doing this all along': State budget invests in mental health resources",
-            text: "Includes increase in Medicaid reimbursement rates, expanding justice system programs",
             author: "Lucy Marques",
             img: "images/Dth-city-politics-of-mental-funding-state.jpeg",
             label: "city",
@@ -94,7 +88,6 @@
         },
         {
             header: "'Testament to how seriously the state is taking suicide prevention': State launches mental health lifeline dashboard",
-            text: "Dashboard tracks calls made to crisis lifelines, providing transparency on service",
             author: "Lola Oliverio",
             img: "images/Dth-city-ncdhhs-mental-health-dashboard-data.jpg",
             label: "city",
@@ -102,14 +95,12 @@
         },
         {
             header: "How two flagship North Carolina universities responded after several student deaths",
-            text: "Content warning: This article contains mentions of suicide and death.",
             author: "Emmy Martin and Emily Vespa",
             img: "images/dth–technician-mental-health-public-suicide.jpg",
             label: "collaboration",
         },
         {
             header: "Op-ed: It's time to replace the word 'stigma' with 'sanism'",
-            text: "",
             author: "Krista Savage-White",
             img: "images/dth-default.png",
             label: "opinion",
@@ -117,7 +108,6 @@
         },
         {
             header: "Community members find mental health relief in spirituality",
-            text: "",
             author: "Marisa Rosa",
             img: "images/dth-lifestyle-mental-health-spirituality.jpeg",
             label: "lifestyle",
@@ -125,28 +115,24 @@
         },
         {
             header: "Column: Mental health is generational in minority communities. Acknowledge it",
-            text: "",
             author: "Ankur Mutyala",
             img: "images/dth-opinion-generational-mental-health.jpeg",
             label: "opinion",
         },
         {
             header: "Op-ed: Make space to help those struggling with their mental health",
-            text: "Content warning: This op-ed contains mention of suicide.",
             author: "Lior Vered-Langley",
             img: "images/dth-default.png",
             label: "opinion",
         },
         {
-            header: "IN PROGRESS: calling-out-elected-officials",
-            text: "",
-            author: "",
+            header: "Elected officials must do more for mental health",
+            author: "the Editorial Board",
             img: "images/calling-out-elected-officials.jpg",
             label: "opinion",
         },
         {
             header: "Mental health providers, patients face inconsistencies in insurance coverage",
-            text: "",
             author: "Tori Newby and Maddie Policastro",
             img: "images/Dth-city-insurance-coverage-gap-statewide-solution.jpeg",
             label: "city",
@@ -154,35 +140,30 @@
         },
         {
             header: "Criminal justice diversion programs redirect, guide individuals",
-            text: "",
             author: "Sarah Smiley",
             img: "images/20200208_dth-city-orange-county-diversion-program-solutions.jpeg",
             label: "city",
         },
         {
             header: "'It's about the process': Art therapy provides creative outlet as mental health care",
-            text: "",
             author: "Mila Mascenik and Sophia Melin",
             img: "images/Dth-lifestyle-alternative-forms-of-therapy-in-arts.jpeg",
             label: "lifestyle",
         },
         {
             header: "The Farm at Penny Lane grows hope through therapy programs",
-            text: "",
             author: "Madison Gagnon",
             img: "images/contrib-dth-lifestyle-farm-helping-mental-health-solutions.jpg",
             label: "lifestyle",
         },
         {
             header: "Health humanities laboratory looks to bridge medical, social sciences",
-            text: "",
             author: "Charlene Wu",
             img: "images/Dth-lifestyle-health-humanities-mental-health-creative-solutions.jpeg",
             label: "lifestyle",
         },
         {
             header: "'Therapy should be affordable to everyone': CAPS addresses financial burdens of therapy",
-            text: "",
             author: "Samantha Nichols",
             img: "images/dth-university-mental-health-cost-breakdown.png",
             label: "university",
@@ -190,14 +171,12 @@
         },
         {
             header: "Students and faculty reflect on university well-being days across North Carolina",
-            text: "Content Warning: This article contains mention of suicide.",
             author: "Alli Pardue",
             img: "images/university-well-being-checks-days.png",
             label: "university",
         },
         {
             header: "Op-ed: UNC’s win-at-all-cost attitude jeopardizes the safety of athletes",
-            text: "",
             author: "Samuel Long and Olivia Gschwind",
             img: "images/dth-default.png",
             label: "opinion",
@@ -210,19 +189,19 @@
             header: "Phoenix Free: Sobriety on campus",
             author: "Avery Sloan",
             img: "images/phoenixfree.png",
-            label: "Univeristy"
+            label: "University",
         },
         {
             header: "College culture’s influence on eating disorders",
             author: "Nia Bedard",
             img: "images/EatingDisorders.jpg",
-            label: "Univeristy"
+            label: "University",
         },
         {
             header: "HealthEU moves toward new wellness center",
             author: "Lilly Molina",
             img: "images/healthEU.JPG",
-            label: "Univeristy"
+            label: "University",
         },
     ];
 
@@ -231,19 +210,19 @@
             header: "If You’re Reading This: Student-led mental health resource offers fresh perspectives",
             author: "Aaron Nataline",
             img: "images/ogb-harris-ifyourereadingthis-feature.jpg",
-            label: "University"
+            label: "University",
         },
         {
             header: "The UCC’s journey from pandemic pitfalls and back",
             author: "Breanna Laws",
             img: "images/ogb-CC-mh-2.jpg",
-            label: "University"
+            label: "University",
         },
         {
             header: "How Wake Forest trains its faculty to be on the frontline of mental health care",
             author: "Christa Dutton",
             img: "images/how-train.jpg",
-            label: "University"
+            label: "University",
         },
     ];
 
@@ -253,14 +232,14 @@
             author: "Sunnya Hadavi and AJ Siegel ",
             img: "images/grad-housing.png",
             url: "https://www.ninertimes.com/news/how-unc-charlotte-s-student-support-organizations-help-international-students-with-off-campus-housing-challenges/article_a2aa7ba8-e58b-11ee-bf7d-53ab7eded94a.html",
-            label: "City & State"
+            label: "City & State",
         },
         {
             header: "Partnership between AthleteTalk and Charlotte Athletics is helping student-athletes grow mental health literacy",
             author: "Bryson Foster ",
             img: "images/niner-times-sports-student-athlete-mental-health-graphic.jpg",
             url: "https://www.ninertimes.com/news/partnership-between-athletetalk-and-charlotte-athletics-is-helping-student-athletes-grow-mental-health-literacy/article_5b35db4a-e58c-11ee-9a60-ef6e8b54e0a4.html",
-            label: "sports"
+            label: "sports",
         },
     ];
 
@@ -269,7 +248,7 @@
             header: "Community, Isolation and Politics: The Mental Health of Queer Students at UNCW",
             author: "Hannah Markov",
             img: "images/sh-ph.jpeg",
-            label: "University"
+            label: "University",
         },
     ];
 
@@ -278,13 +257,13 @@
             header: "The community building within ECU",
             author: "Kiarra Crayton",
             img: "images/team.jpg",
-            label: "University"
+            label: "University",
         },
         {
             header: "Morgan’s Message spreads mental health awareness in student-athletes",
             author: "Kiarra Crayton",
             img: "images/morgan-message.JPG",
-            label: "University"
+            label: "University",
         },
     ];
 
@@ -293,13 +272,13 @@
             header: "The state of mental health at N.C. A&T and where it can improve",
             author: "Rosegalie Cineus and Kaila Collier",
             img: "images/aandt-mentalphealth.jpg",
-            label: "University"
+            label: "University",
         },
         {
             header: "HBCUs grapple with tuition increases and student mental health",
             author: "Dasia Williams",
             img: "images/ncat-services.png",
-            label: "University"
+            label: "University",
         },
     ];
 
@@ -308,7 +287,7 @@
             header: "Duke researchers work on mental wellbeing studies exploring how we think, feel and socialize",
             author: "Winston Qian",
             img: "images/duke-medical-school-stock.jpg",
-            label: "University"
+            label: "University",
         },
     ];
 
@@ -318,14 +297,14 @@
             author: "Ethan Bakogiannis and Jameson Wolf",
             img: "images/tech-stem-graphic.PNG",
             url: "https://www.technicianonline.com/campus-community-uses-ai-to-address-mental-health/article_783976b2-e590-11ee-9a4b-7ba3b69aa934.html",
-            label: "University"
+            label: "University",
         },
         {
             header: "How we talk about suicide online matters",
             author: "Kate Denning",
             img: "images/tech-how-we-talk.png",
             url: "https://www.technicianonline.com/opinion-how-we-talk-about-suicide-online-matters/article_5f3104a6-e58f-11ee-8d68-1f50c1a1f39a.html",
-            label: "Opinion"
+            label: "Opinion",
         },
     ];
 </script>
@@ -343,10 +322,19 @@
  -->
 
 <div style:background-color={"var(--black)"}>
-    <Feature invertColors={true} img={"images/main-art.png"} size={100}>
+    <Feature
+        invertColors={true}
+        img={"images/main-art.png"}
+        imgSize={"60%"}
+        size={100}
+        normalImg={false}
+    >
         <div slot="text">
-            <h1 style:font-size={"40px"}>A statewide issue</h1>
-            <p style:font-size={"1.2em"}>Nine North Carolina college newsrooms partner to cover the mental health crisis faced by their communities</p>
+            <h1 style:font-size={"40px"}>A statewide issue.</h1>
+            <p style:font-size={"1.2em"} style:line-height={"26px"}>
+                Nine North Carolina college newsrooms partner to cover the
+                mental health crisis faced by their communities
+            </p>
         </div>
     </Feature>
 </div>
@@ -358,10 +346,10 @@
         { url: "#the-pendulum", text: "The Pendulum" },
         { url: "#old-gold-and-black", text: "Old Gold & Black" },
         { url: "#nine-times", text: "Niner Times" },
-        { url: "#the-seahawk", text: "The Seahawk" },
         { url: "#the-east-carolinian", text: "The East Carolinian" },
         { url: "#a-and-t-register", text: "A&T Register" },
         { url: "#technician", text: "Technician" },
+        { url: "#the-seahawk", text: "The Seahawk" },
         { url: "#the-chronicle", text: "The Chronicle" },
     ]}
 />
@@ -370,7 +358,7 @@
     <div class="columns anchor-wrapper">
         <span class="anchor" id="introduction"></span>
         <h2>Behind the Mental Health Collaborative</h2>
-        <p class="author">
+        <p class="author" style:line-height={"19px"}>
             By <a href="https://www.dailytarheel.com/staff/emmy-martin"
                 >Emmy Martin</a
             ><br /><span class="byline"
@@ -444,24 +432,27 @@
     <div style="margin: 40px auto; width: fit-content;">
         <LogoGrid {logoList} />
     </div>
-    <hr />
-    <div style:background-color={"black"}>
-        <Feature
-            img={"images/university-well-being-checks-days.png"}
-            textLeft={false}
+</main>
+<div class="black-back">
+    <Feature
+        img={"images/university-well-being-checks-days.png"}
+        textLeft={false}
+        invertColors={true}
+    >
+        <Article
+            slot="text"
+            headline={"Students and faculty reflect on university well-being days across North Carolina"}
+            author={"Alli Pardue"}
+            summary={"Six schools out of the 17 within the UNC System have instituted wellness days this year. UNC-CH's well-being days — initially called wellness days — began in fall 2020 as a response to students requesting more breaks. Former Chancellor Kevin Guskiewicz and former Provost Robert Blouin said the days off would replace the campus’s 2021 spring break in an effort to limit the spread of COVID-19."}
+            headerSize={28}
             invertColors={true}
-        >
-            <Article
-                slot="text"
-                headline={"Students and faculty reflect on university well-being days across North Carolina"}
-                author={"Alli Pardue"}
-                summary={"Content Warning: This article contains mention of suicide."}
-                headerSize={28}
-                invertColors={true}
-            />
-        </Feature>
-    </div>
-    <hr />
+            newspaper={"The Daily Tar Heel"}
+            label={"university"}
+            url={"https://www.dailytarheel.com/article/2024/03/dth-university-post-shooting-mental-health"}
+        />
+    </Feature>
+</div>
+<main>
     <div class="carousel-container article-set case anchor-wrapper">
         <span class="anchor" id="the-daily-tar-heel"></span>
         <ArticleCase
@@ -469,17 +460,26 @@
             articleData={theDailyTarHeelStories}
         />
     </div>
-    <hr />
-    <Feature img={"images/dth–technician-mental-health-public-suicide.jpg"}>
+</main>
+<div class="black-back">
+    <Feature
+        img={"images/dth–technician-mental-health-public-suicide.jpg"}
+        invertColors={true}
+    >
         <Article
             slot="text"
             headline={"How two flagship North Carolina universities responded after several student deaths"}
             author={"Emmy Martin and Emily Vespa"}
-            summary={"Content Warning: This article contains mention of suicide."}
+            summary={"After more than 10 students died by suicide on their campuses over the last few years, UNC-CH and N.C. State partnered with The Jed Foundation to improve mental health programs and suicide prevention efforts and revised their postvention student death protocols."}
             headerSize={28}
+            newspaper={"The Daily Tar Heel & Technician"}
+            invertColors={true}
+            label={"University"}
+            url={"https://www.dailytarheel.com/article/2024/03/how-two-flagship-north-carolina-universities-responded-after-several-student-deaths"}
         />
     </Feature>
-    <hr />
+</div>
+<main>
     <div class="article-set case anchor-wrapper">
         <span class="anchor" id="the-pendulum"></span>
         <ArticleSet
@@ -490,16 +490,27 @@
             imgSize={200}
         />
     </div>
-    <hr />
-    <Feature img={"images/grad-housing.png"} textLeft={false}>
+</main>
+<div class="black-back">
+    <Feature
+        img={"images/grad-housing.png"}
+        textLeft={false}
+        invertColors={true}
+    >
         <Article
             slot="text"
             headline={"How UNC Charlotte’s student support organizations help international students with off-campus housing challenges"}
             author={"Sunnya Hadavi and AJ Siegel"}
             headerSize={28}
+            summary={"At UNC Charlotte, the Triveni Indian Student Association helps international students with housing maintenance and damages, advocating on their behalf and pushing landowners to resolve problems promptly."}
+            newspaper={"The Niner Times"}
+            invertColors={true}
+            label={"City & State"}
+            url={"https://www.ninertimes.com/news/how-unc-charlotte-s-student-support-organizations-help-international-students-with-off-campus-housing-challenges/article_a2aa7ba8-e58b-11ee-bf7d-53ab7eded94a.html"}
         />
     </Feature>
-    <hr />
+</div>
+<main>
     <div class="article-set case anchor-wrapper">
         <span class="anchor" id="old-gold-and-black"></span>
         <ArticleSet
@@ -510,17 +521,27 @@
             imgSize={275}
         />
     </div>
-    <hr />
-    <Feature img={"images/ogb-CC-mh-2.jpg"}>
+</main>
+<div class="black-back">
+    <Feature
+        img={"images/tech-how-we-talk.png"}
+        textLeft={true}
+        invertColors={true}
+    >
         <Article
             slot="text"
-            headline={"The UCC’s journey from pandemic pitfalls and back"}
-            summary={"The UCC struggled to meet demand during the pandemic. Now, the center boasts high student satisfaction rates."}
-            author={"Breanna Laws"}
+            headline={"How we talk about suicide online matters"}
+            author={"Ethan Bakogiannis and Jameson Wolf"}
+            label={"COLUMN"}
+            summary={"Media coverage is a primary driving factor in suicide contagion, when exposure to a suicide leads to increased risk of suicidal behavior. Researchers have developed guidelines for responsible reporting on suicide, and, when followed, these guidelines can successfully reduce the risk of contagion."}
             headerSize={28}
+            newspaper={"Technician"}
+            invertColors={true}
+            url={"https://www.technicianonline.com/opinion-how-we-talk-about-suicide-online-matters/article_5f3104a6-e58f-11ee-8d68-1f50c1a1f39a.html"}
         />
     </Feature>
-    <hr />
+</div>
+<main>
     <div class="article-set case anchor-wrapper">
         <span class="anchor" id="nine-times"></span>
         <ArticleSet
@@ -531,27 +552,23 @@
             imgSize={225}
         />
     </div>
-    <hr />
-    <Feature img={"images/tech-how-we-talk.png"} textLeft={false}>
+</main>
+<div class="black-back">
+    <Feature img={"images/ogb-CC-mh-2.jpg"} invertColors={true} textLeft={false}>
         <Article
             slot="text"
-            headline={"How we talk about suicide online matters"}
-            author={"Ethan Bakogiannis and Jameson Wolf"}
-            label={"COLUMN"}
+            headline={"The UCC’s journey from pandemic pitfalls and back"}
+            summary={"The COVID-19 pandemic posed challenges to the Wake Forest University Counseling Center and forced the center to adapt its methods. Now, with the acute challenges of the pandemic largely subsided, the Wake Forest University Counseling Center has increased its satisfaction rating among students."}
+            author={"Breanna Laws"}
             headerSize={28}
+            newspaper={"Old Gold & Black"}
+            invertColors={true}
+            label={"University"}
+            url={"https://wfuogb.com/23730/special-editions/the-uccs-journey-from-pandemic-pitfalls-and-back/"}
         />
     </Feature>
-    <hr />
-    <div class="article-set case anchor-wrapper">
-        <span class="anchor" id="the-seahawk"></span>
-        <ArticleSet
-            sizePct={70}
-            articleData={theSeahawkStories}
-            sideCar={false}
-            headerImg={"mastheads/seahawk-masthead.png"}
-        />
-    </div>
-    <hr />
+</div>
+<main>
     <div class="article-set case anchor-wrapper">
         <span class="anchor" id="the-east-carolinian"></span>
         <ArticleSet
@@ -585,6 +602,16 @@
     </div>
     <hr />
     <div class="article-set case anchor-wrapper">
+        <span class="anchor" id="the-seahawk"></span>
+        <ArticleSet
+            sizePct={70}
+            articleData={theSeahawkStories}
+            sideCar={false}
+            headerImg={"mastheads/seahawk-masthead.png"}
+        />
+    </div>
+    <hr />
+    <div class="article-set case anchor-wrapper">
         <span class="anchor" id="the-chronicle"></span>
         <ArticleSet
             sizePct={70}
@@ -605,20 +632,9 @@
                 are worried about a friend or need emotional support. Text START
                 to the Crisis Text Line at 741-741.
             </p>
-            <p>
-                <b>Credits</b><br />
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
-                ipsa quo sint ullam itaque veritatis eos omnis delectus voluptate
-                aperiam sapiente accusantium provident illum sequi, sunt corrupti
-                doloremque ratione cum.
-            </p>
-            <p>
-                <b>Credits</b><br />
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
-                ipsa quo sint ullam itaque veritatis eos omnis delectus voluptate
-                aperiam sapiente accusantium provident illum sequi, sunt corrupti
-                doloremque ratione cum.
-            </p>
+            <p>Special thanks to the <a href="https://www.solutionsjournalism.org/">Solutions Journalism Network</a> for funding this collaborative project.</p>
+            <p>Developed by Leo Davidson</p>
+            
         </section>
     </div>
 </footer>
@@ -626,7 +642,7 @@
 <style>
     main {
         margin: auto;
-        width: 100%;
+        width: 90%;
     }
 
     hr {
@@ -641,18 +657,30 @@
         padding: 60px 0;
     }
 
+    .footer-logo {
+        margin: auto;
+    }
+
     .footer-wrapper {
-        padding: 60px;
+        width: 50%;
+        text-align: center;
+        margin: auto;
     }
 
     .footer-grid {
-        display: grid;
-        grid-template-columns: auto auto auto;
+        display: inline;
+        grid-template-columns: auto;
         gap: 20px;
     }
 
     .footer-wrapper p {
         font-family: Arial, sans-serif;
+    }
+
+    .footer-wrapper a {
+        font-family: Arial, sans-serif;
+        color: var(--white);
+
     }
 
     .footer-wrapper p b {
@@ -679,8 +707,6 @@
 
     .black-back {
         background-color: var(--black);
-        width: 100%;
-        padding: 20px 0;
     }
 
     .case {
@@ -710,6 +736,10 @@
     @media only screen and (max-width: 750px) {
         .footer-grid {
             grid-template-columns: auto;
+        }
+
+        .footer-wrapper {
+            width: 75%;
         }
     }
     .carousel-container {
